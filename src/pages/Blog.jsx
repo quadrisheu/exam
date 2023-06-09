@@ -1,4 +1,3 @@
-
 import '../styles/blog.css'
 import book from '../img/book2.png'
 import vec5 from '../img/Vector5.png'
