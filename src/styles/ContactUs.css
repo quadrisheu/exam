@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.contact-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 70px;
+}
+
+.banner {
+    width: 100%;
+    background-color: #002099;
+    padding: 100px 65px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+
+.banner h6 {
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    font-size: 16px;
+}
+
+.banner h3 {
+    font-size: 40px;
+    padding: 10px 0;
+    font-weight: 500;
+}
+
+.us {
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 50px;
+
+}
+
+.us1 {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 50px;
+}
+
+.us2 {
+    width: 50%;
+    
+}
+
+.us2a {    
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    width: 50%;
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.us1a {
+    margin-top: 10px;
+}
+
+.us1 h5 {
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.verto {
+    margin-left: 50px;
+}
+
+.verto h6 {
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+
+.verto p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+
+.us1a {
+    display: flex;
+    flex-direction: row;
+}
+
+.us1a .verti {
+    width: 5px;
+    height: 195px;
+    background-color: #002099;
+}
+
+.name5 {
+    height: 35px;
+    padding-left: 10px;
+    width: 100%;
+    font-size: 17px;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.email5 {
+    height: 35px;
+    font-size: 17px;
+    padding-left: 10px;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.subject5 {
+    height: 35px;
+    font-size: 17px;
+    padding-left: 10px;
+    width: 100%;
+     border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.help5 {
+    height: 35px;
+    font-size: 17px;
+    padding-left: 10px;
+    width: 100%;
+     border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+button {
+    width: 150px;
+    background-color: #002099;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 0;
+}
+
+button img {
+    margin: 0px 0px -2px 5px;
+}
+
+.need {
+    background-color: black;
+    color: #fff;
+    padding: 55px 40px;
+    margin: 35px 0px 130px 0px;
+}
+
+.need h3 {
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.need p {
+    font-size: 20px;
+    
+}
+
+@media only screen and (max-width: 1030px) {
+    
+    .us1 {
+        width: 40%;
+        
+        display: flex;
+        flex-direction: column;
+        
+        padding-left: 50px;
+    }
+    
+    .us2 {
+        width: 40%;
+        
+    }
+    
+    .us2a {    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 737px) {
+    .us {
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    
+    }
+    
+    .us1 {
+        width: 80%;
+        
+        display: flex;
+        flex-direction: column;
+        
+        padding-left: 50px;
+    }
+    
+    .us2 {
+        width: 80%;
+        margin-left: 20px;
+        margin-top: 30px;
+        
+    }
+    
+    .us2a {    
+        display: flex;
+        flex-direction: row;
+    }
+    
+    
+
+}
+
+@media only screen and (max-width: 450px) {
+    .us {
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    
+    }
+    
+    .us1 {
+        width: 120%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left: 50px;
+    }
+    
+    .us2 {
+        width: 120%;
+        margin-left: 0px;
+        margin-top: 30px;
+        
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    
+    .us1 {
+        width: 130%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left: 10px;
+    }
+    
+    .us2 {
+        width: 130%;
+        margin-left: 0px;
+        margin-top: 30px;
+        
+    }
+
+    .need p {
+        
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .us1 {
+        width: 130%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left: 0px;
+    }
+    
+    .us2 {
+        width: 130%;
+        margin-left: 0px;
+        margin-top: 30px;
+        
+    }
+    .need p {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 307px) {
+    
+    .us1 {
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left: 0px;
+    }
+    
+    .us2 {
+        width: 140%;
+        margin-left: 0px;
+        margin-top: 30px;
+        
+    }
+    .need .ned {
+        font-size: 15px;
+    }
+    .need p {
+        font-size: 8px;
+    }
+
+    .verto {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 271px) {
+    
+    .us1 {
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left: 0px;
+    }
+    
+    .us2 {
+        width: 130%;
+        margin-left: 0px;
+        margin-top: 10px;
+        
+    }
+
+    .need {
+        
+        padding: 55px 20px;
+        margin: 35px 0px 130px 0px;
+    }
+    .need .ned {
+        font-size: 15px;
+    }
+    .need p {
+        font-size: 6px;
+    }
+
+    .verto {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    
+    .us1 {
+        width: 140%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+       margin-left: -10px;
+    }
+    
+    .us2 {
+        width: 150%;
+        margin-left: 0px;
+        margin-top: 10px;
+        
+    }
+
+    .need {
+        
+        padding: 55px 5px;
+        margin: 35px 0px 100px 0px;
+    }
+    .need .ned {
+        font-size: 15px;
+    }
+    .need p {
+        font-size: 6px;
+    }
+
+    .verto {
+        margin-left: 1px;
+    }
+
+  .us1  .ox {
+        font-size: 16px; 
+    }
+
+    .us1  .ox2 {
+        font-size: 13px; 
+    }
+
+    button {
+        width: 120px;
+        
+        font-size: 11px;
+        font-weight: 600;
+        margin-top: 30px;
+        padding: 10px;
+        
+    }
+}

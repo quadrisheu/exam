@@ -1,0 +1,2389 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.home-container {
+    width: 100%;
+}
+
+.top1 {
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 30px; 
+    
+}
+
+.practice {
+    width: 60%;
+    padding-top: 0px;
+    color: #002099;
+    margin-top: 30px;
+    padding-left: 50px;
+    
+}
+
+.man {
+    width: 40%;
+    margin-bottom: 130px;
+    margin-right: 50px;
+    
+}
+
+
+.practice .pra {
+    font-weight: 900;
+    font-size: 95px;
+    line-height: 130%;
+    padding: 10px 10px 10px 30px;
+    font-family: 'Clash Display Variable';
+}
+
+.practice .ing {
+    padding-left: 10px; 
+    margin-bottom: -40px;
+}
+
+.practice .ing2 {
+    padding-left: 30px; 
+    margin-bottom: -30px;
+}
+
+.practice .pre {
+    font-weight: 900;
+    font-size: 95px;
+    line-height: 130%;
+    padding: 10px 10px 10px 30px;
+    font-family: 'Clash Display Variable';
+}
+
+.practice .exc {
+    font-weight: 900;
+    font-size: 95px;
+    line-height: 130%;
+    padding: 10px 10px 10px 30px;
+    font-family: 'Clash Display Variable';
+    
+}
+
+.practice .bot {
+    
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 330px;
+    left: 370px;
+    
+    
+}
+
+.bot .bat button {
+    padding: 0px 5px;
+    width:80px ;
+    margin-bottom: -33px;
+    
+    
+}
+
+.bot .bit .common {
+    padding: 0px 5px;
+    width: 175px; 
+}
+
+.bot .bit .neco {
+    padding: 0px 5px;
+    width: 80px; 
+}
+
+
+.practice .bit {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.bot button {
+    height: 50px;
+    border: 1px solid #676e82;
+    padding: 0px 15px;
+    border-radius: 16px;
+    color: #676e82;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Nunito';
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    margin-right: 12px;
+}
+
+.welcome {
+    font-size: 16px;
+    margin-top: 25px;
+    padding: 0px 20px 0px 30px;
+    font-weight: 400;
+    font-family: 'Mulish';
+    color: #000415;
+
+}
+
+.bill {
+    padding-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.bill button {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #1178FF;
+    padding: 0px 5px;
+    border-radius: 4px;
+    color: #1178FF;
+    cursor: pointer;
+    background-color: #fff;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 12px;
+    margin-bottom: 10px;
+
+
+}
+
+.bill .get {
+    width: 160px;
+    height: 40px;
+    border: 1px solid #1178FF;
+    padding: 0px 5px;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    background-color: #1178FF;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin-right: 12px;
+
+}
+
+.middle {
+    width: 100%;
+    height: 220px;
+    background-color: #002099;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid {
+    width: 80%;
+    height: 120px;
+    display: flex;
+    background-color: #fff;
+    padding: 25px 10px;
+    margin: 10px 20px;
+}
+
+.midi {
+    width: 25%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 25px 10px;
+    margin-top: -25px;
+}
+
+.mid img {
+    padding: 0px 10px;
+    padding-bottom: 10px;
+}
+
+.mid h3 {
+    color: #002099;
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.mid p {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 11px;
+    color: #0B2239;
+}
+
+.vert {
+    background-color: #002099;
+    width: 2px;
+    height: 75px;
+    margin-left: 20px;
+}
+
+.best {
+    color: #0B2239;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 70px 0px;
+    font-family: 'Clash Display Variable';
+   
+}
+
+.middle2 {
+    width: 100%;
+    margin: 50px 0px 20px 0px;
+    
+    
+}
+
+.midj {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.midj img {
+    
+    margin: -10px 100px 50px 0px;
+    
+
+}
+
+
+.category {
+   margin-right: 90px;
+   margin-bottom: 55px;
+}
+
+.category h3 {
+   font-family: 'Mulish';
+   font-weight: 700;
+   font-size: 30px; 
+   color:  #000513;;  
+}
+
+.category p {
+   font-family: 'Mulish';
+   font-size: 15px;
+   color: #000513; 
+   font-weight: 400;
+}
+
+.category span {
+    border-bottom: 1px solid #5c5c5c;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    width: 60px;
+}
+
+
+
+.midj .img1 {
+    margin-right: 30px;
+}
+
+
+
+.middle3 {
+    width: 100%;
+    height: 250px;
+    background-color: #002099;
+    margin: 70px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    
+}
+
+.midd {
+    width: 80%;
+    height: 120px;
+    display: flex;
+    padding: 25px 50px;
+    background: #1D3797;
+    backdrop-filter: blur(15px);
+    border-radius: 24px;
+}
+
+.midii {
+    width: 20%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #1D3797;
+    padding: 15px 5px;
+    margin-top: -15px;
+}
+
+.midy {
+    margin-right: -41px;
+    margin-left: 20px;
+}
+
+.midii img {
+    padding: 0px 10px;
+    
+    color: #212529;
+}
+
+.midd h2 {
+    color: #002099;
+}
+
+.midd span {
+    background-color: #fff;
+    width: 3px;
+    height: 70px;
+    margin: 0px 0px 0px 20px;
+}
+
+.middle3 h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+
+}
+
+.mid2 a {
+    color: #fff;
+    font-size: 11px;
+    font-family: 'Mulish';
+}
+
+.mid2 h3 {
+    font-family: 'Clash Display Variable';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.middle4 {
+    width: 100%;
+    margin: 110px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle4 h3 {
+    color: #0b2239;
+    font-size: 32px;
+    font-weight: 600;
+    font-family: 'Clash Display Variable';
+}
+
+.middle4 p {
+    color: #0b2239;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Mulish';
+}
+
+.ved {
+    margin-top: 10px;
+    
+}
+
+.middle4 .vid {
+    width: 750px;
+    height: 300px;
+    border: 1px solid #e9ecef;
+    border-radius: 25px;
+    
+}
+
+
+@media only screen and (max-width: 1030px) {
+    .midj {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .midj img {
+        margin: -90px 300px 20px 50px;
+    }
+    
+    
+    .category {
+       margin-left: -190px;
+       margin-bottom: 55px;
+      
+    }
+    .category h3 {
+        font-size: 27px; 
+        
+     }
+
+    .cat {
+        margin-left: 30px;
+        margin-bottom: 55px;
+       
+     }
+
+     .midj .img1 {
+        margin-right: 0px;
+    }
+
+
+
+    .practice {
+        width: 80%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+        
+    }
+    
+    .man {
+        display: none;
+    }
+    
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 470px;
+    }
+
+    .midd h2 {
+        font-size: 13px;
+        background-color: #000415;
+    }
+
+    .midd {
+        width: 80%;
+        height: 120px;
+        display: flex;
+        padding: 25px 50px;
+        background: #1D3797;
+        backdrop-filter: blur(15px);
+        border-radius: 24px;
+    }
+    
+    .midii {
+        width: 25%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        background-color: #1D3797;
+        padding: 15px 5px;
+        margin-top: -15px;
+    }
+    
+    .midy {
+        margin-right: 0px;
+        margin-left: -10px;
+    }
+    
+    .midii img {
+        padding: 0px 10px;
+        
+        color: #212529;
+    }
+    
+    .mid2 h3 {
+        font-size: 13px;
+    }
+
+    
+    
+    .midd span {
+        background-color: #fff;
+        width: 3px;
+        height: 70px;
+        margin: 0px 0px 0px 20px;
+    }
+    
+
+    
+}
+
+@media only screen and (max-width: 1007px) {
+    .practice {
+        width: 70%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+    }
+    
+    .practice .bot {
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 520px;
+    }
+
+    .mid2 h3 {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 996px) {
+    .practice {
+        width: 80%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+        
+    }
+    
+    .man {
+        width: 20%;
+        margin-bottom: 130px;
+        margin-left: 0px;
+    }
+    
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 470px;
+        
+        
+    }
+
+    .midj {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .midj img {
+        margin: -90px 250px 20px 20px;
+        
+    
+    }
+    
+    
+    .category {
+       margin-right: 0px;
+      
+       margin-bottom: 55px;
+    }
+}
+
+
+@media only screen and (max-width: 893px) {
+
+    .practice {
+        width: 80%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+        
+    }
+    
+    .man {
+        display: none;
+    }
+    
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 450px;
+        
+        
+    }
+
+    .midj {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    
+    .midj img {
+        margin: -90px 250px 20px 50px;
+        
+    
+    }
+    
+    
+    .category {
+       margin-right: 0px;
+       margin-bottom: 55px;
+    }
+}
+
+@media only screen and (max-width: 870px) {
+
+    .practice {
+        width: 80%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+        
+    }
+    
+    .man {
+        display: none;
+    }
+    
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 450px;
+        
+        
+    }
+
+    .middle2 {
+        width: 100%;
+        height: 2200px;
+    }
+
+    .midj {
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 90px 0px;
+       
+    }
+    
+    .midj img {
+        margin: 20px 0px;
+    }
+    
+    
+    .category {
+
+        margin: 20px 0px;
+    }
+
+    .midj .img1 {
+        margin: 20px 0px;
+        
+    }
+    
+    
+    .midj .cat {
+        
+        margin-top: 150px;
+    }
+
+    .midjz3 {
+        margin: 250px 0px 50px 0px;
+        
+    }
+
+    .midjz4 {
+        margin-top: 150px;
+       
+    }
+
+    .middle4 .vid {
+        width: 550px;
+        height: 200px;
+        border: 1px solid #e9ecef;
+        border-radius: 25px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 850px) {
+
+    .practice {
+        width: 90%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+        
+    }
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 420px;
+    }
+
+    .mid2 h3 {
+        font-size: 10px;
+    }
+
+    .mid2 p {
+        font-size: 8px;
+    }
+
+    .midd {
+        width: 80%;
+        height: 120px;
+        display: flex;
+        padding: 25px 50px;
+        background: #1D3797;
+        backdrop-filter: blur(15px);
+        border-radius: 24px;
+    }
+    
+    .midii {
+        width: 25%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        background-color: #1D3797;
+        padding: 15px 5px;
+        margin-top: -15px;
+    }
+    
+    .midy {
+        margin-right: 0px;
+        margin-left: -40px;
+    }
+    
+    .midii img {
+        padding: 0px 10px;
+        
+        color: #212529;
+    }
+    
+    
+
+    
+    
+    .midd span {
+        background-color: #fff;
+        width: 3px;
+        height: 70px;
+        margin: 0px 0px 0px 20px;
+    }
+    .middle4 .vid {
+        width: 450px;
+        height: 170px;
+        border: 1px solid #e9ecef;
+        border-radius: 25px;
+    } 
+
+    .middle4 h3 {
+        font-size: 19px;
+    }
+
+    .middle4 p {
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 760px) {
+
+    .practice {
+        width: 100%;
+        padding-top: 0px;
+        color: #002099;
+        margin-top: 30px;
+        
+    }
+    
+    .man {
+        display: none;
+    }
+    
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 390px;
+        }
+
+        .middle {
+            width: 100%;
+            height: 550px;
+        }
+
+        .mid {
+            width: 40%;
+            height: 440px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            padding: 25px 0px;
+            
+        }
+        
+        .midi {
+            width: 65%;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 25px 10px;
+            margin-top: -25px;
+        }
+        
+        .mid img {
+            padding: 0px 10px;
+            padding-bottom: 10px;
+        }
+        
+        .mid h3 {
+            color: #002099;
+            font-family: 'Clash Display Variable';
+            font-weight: 600;
+            font-size: 20px;
+        }
+        
+        .mid p {
+            font-family: 'Mulish';
+            font-weight: 400;
+            font-size: 11px;
+            color: #0B2239;
+        }
+        
+        .vert {
+           display: none;
+        }
+.middle3 {
+    width: 100%;
+    height:600px ;
+}
+    .midd {
+        width: 50%;
+        height: 520px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        border-radius: 24px;
+        
+    }
+
+    .midii span {
+        display: none;
+
+    }
+
+    .midy {
+        margin-left: 55px;
+
+    }
+
+    .midii {
+        width: 80%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        background-color: #1D3797;
+        padding: 15px 5px;
+        margin-top: -15px;
+        margin-left: 25px;
+    }
+    .midj {
+        width: 90%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 90px 0px;
+       
+    }
+    
+    .midj img {
+        margin: 0px;
+    
+    }
+    
+    
+    .category {
+       margin: 0px;
+    }
+
+    .midjz3 {
+        margin: 300px 0px 50px 0px;
+        
+    }
+
+    .midjz4 {
+        margin-top: 150px;
+       
+    }
+
+    .middle4 .vid {
+        width: 550px;
+        height: 200px;
+        border: 1px solid #e9ecef;
+        border-radius: 25px;
+        
+    }
+    
+}
+
+
+@media only screen and (max-width: 707px) {
+    
+
+    .practice {
+        width: 100%;
+        padding-left: 0px;
+        
+    }
+    
+    .man {
+        display: none;
+    }
+    
+    
+    .practice .bot {
+         width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 310px;
+        }
+}
+
+@media only screen and (max-width: 683px) {
+
+    .practice {
+        width: 100%;
+        
+    }
+    
+    
+    .practice .bot {
+        
+        width: 300px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 320px;
+        }
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    .practice {
+        width: 100%;
+        
+    }
+    
+    .practice .ing {
+        padding-left: 1px; 
+        margin-bottom: -40px;
+    }
+    
+    .practice .ing2 {
+        padding-left: 30px; 
+        margin-bottom: -30px;
+    }
+    .practice .bot {
+        
+        width: 290px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 330px;
+        left: 320px;
+        }
+}
+
+@media only screen and (max-width: 624px) {
+
+    .practice {
+        width: 100%;
+        
+    }
+    
+    .practice .ing {
+       width: 120px;
+    }
+    
+    .practice .ing2 {
+        width: 120px;
+    }
+
+    .bot .bat button {
+        padding: 0px 5px;
+        width:60px;
+        margin-bottom: -33px;
+        
+        
+    }
+    
+    .bot .bit .common {
+        
+        width: 140px; 
+    }
+    
+    .bot .bit .neco {
+        padding: 0px 5px;
+        width: 60px; 
+    }
+
+    .bot button {  
+        font-size: 11px;
+       
+    }
+
+
+    .practice .bot {
+        
+        width: 270px;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 320px;
+        left: 310px;
+        }
+
+        .welcome {
+            font-size: 14px;
+        }
+        
+}
+
+@media only screen and (max-width: 577px) {
+    .practice .pra {
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 130%;
+       
+    }
+    
+    
+    .practice .pre {
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 130%;
+        
+    }
+    
+    .practice .exc {
+        font-weight: 900;
+        font-size: 75px;
+        line-height: 130%;
+        
+        
+    }
+
+    .practice {
+        width: 100%;
+        
+    }
+    
+    .practice .ing {
+       width: 120px;
+       
+    }
+    
+    .practice .ing2 {
+        width: 120px;
+    }
+
+    .bot .bat button {
+        padding: 0px 5px;
+        width:60px;
+        margin-bottom: -33px;
+        
+        
+    }
+    
+    .bot .bit .common {
+        
+        width: 140px; 
+    }
+    
+    .bot .bit .neco {
+        padding: 0px 5px;
+        width: 60px; 
+    }
+
+    .bot button {  
+        font-size: 10px;
+        height: 40px;
+       
+    }
+
+
+    .practice .bot {
+        
+        width: 230px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 260px;
+        left: 261px;
+        }
+
+        .welcome {
+            font-size: 13px;
+        }
+        
+        .middle4 .vid {
+            width: 350px;
+            height: 120px;
+            border: 1px solid #e9ecef;
+            border-radius: 25px;
+            
+        }
+        
+}
+
+@media only screen and (max-width: 510px) {
+    .practice .pra {
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 130%;
+       
+    }
+    
+    
+    .practice .pre {
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 130%;
+        
+    }
+    
+    .practice .exc {
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 130%;
+        
+        
+    }
+
+    .practice {
+        width: 100%;
+        
+    }
+    
+    .practice .ing {
+       width: 120px;
+       
+    }
+    
+    .practice .ing2 {
+        width: 120px;
+    }
+
+    .bot .bat button {
+        padding: 0px 5px;
+        width:60px;
+        margin-bottom: -33px;
+        
+        
+    }
+    
+    .bot .bit .common {
+        
+        width: 140px; 
+    }
+    
+    .bot .bit .neco {
+        padding: 0px 5px;
+        width: 60px; 
+    }
+
+    .bot button {  
+        font-size: 10px;
+        height: 40px;
+       
+    }
+
+
+    .practice .bot {
+        
+        width: 230px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 235px;
+        left: 215px;
+        }
+
+        .welcome {
+            font-size: 11px;
+        }
+        
+        .mid {
+            width: 80%;
+            height: 400px;
+            
+        }
+}
+
+@media only screen and (max-width: 485px) {
+    .middle3 h2 {
+        font-size: 25px;
+    }
+
+
+    .midii {
+         margin-left: 7px;
+    }
+    }
+
+    @media only screen and (max-width: 462px) {
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 55px;
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 55px;
+            
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 55px;
+          
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -40px;
+            
+        }
+        
+        .practice .ing {
+           width: 110px;
+          
+           
+        }
+        
+        .practice .ing2 {
+            width: 110px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:45px;
+            margin-bottom: -33px;
+            
+            
+        }
+        
+        .bot .bit .common {
+            
+            width: 120px; 
+        }
+        
+        .bot .bit .neco {
+            padding: 0px 5px;
+            width: 50px; 
+        }
+    
+        .bot button {  
+            font-size: 9px;
+            height: 35px;
+           
+        }
+    
+    
+        .practice .bot {
+            
+            width: 180px;
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 195px;
+            left: 190px;
+            }
+    
+            .welcome {
+                font-size: 9px;
+            }
+            
+            .midj {
+                width: 100%;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0px;
+               
+            }
+            
+            .midj img {
+                width: 350px;
+                margin-bottom: 20px;
+            
+            }
+            
+            
+            .category {
+                width: 300px;
+               margin: 0px;
+            }
+            .midjz3 {
+                margin: 250px 0px 50px 0px;
+                
+            }
+        
+            .midjz4 {
+                margin-top: 150px;
+               
+            }
+            
+    }
+    
+    @media only screen and (max-width: 462px) {
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 45px;
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 45px;
+            margin-left: -10px;
+           
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 45px;
+            margin-bottom: 70px;
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -40px;
+            
+        }
+        
+        .practice .ing {
+           width: 90px;
+          
+           
+        }
+        
+        .practice .ing2 {
+            width: 100px;
+            margin-top: 20px;
+            margin-bottom: -20px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:40px;
+            margin-bottom: -43px;
+         }
+        
+        .bot .bit .common {
+            
+            width: 110px; 
+        }
+        
+        .bot .bit .neco {
+            padding: 0px 5px;
+            width: 45px; 
+        }
+    
+        .bot button {  
+            font-size: 8px;
+            height: 35px;
+            margin-right: 17px;
+        }
+    
+    
+        .practice .bot {
+            
+            width: 175px;
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 205px;
+            left: 160px;
+            }
+    
+            .welcome {
+                font-size: 8px;
+            }
+
+            .bill button {
+                width: 140px;
+                font-size: 15px;
+                margin-right: 12px;
+               
+            }
+            
+            
+            .bill .get {
+                width: 140px;
+                font-size: 15px;
+                margin-right: 12px;
+            
+            }
+
+            .middle3 h2 {
+                font-size: 17px;
+            }
+
+            
+            .middle3 .midii {
+                margin-left: -50px;
+            }
+
+            .midj {
+                width: 100%;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0px;
+               
+            }
+            
+            .midj img {
+                width: 350px;
+                margin-bottom: 20px;
+            
+            }
+            
+            
+            .category {
+                width: 300px;
+               margin: 0px;
+            }
+            .midjz3 {
+                margin: 250px 0px 50px 0px;
+                
+            }
+        
+            .midjz4 {
+                margin-top: 150px;
+               
+            }
+
+            .middle4 h3 {
+               font-size: 19px;
+            }
+
+            .middle4 p {
+                font-size: 8px;
+             }
+            
+            .middle4 .vid {
+                width: 290px;
+                height: 170px;
+                border: 1px solid #e9ecef;
+                border-radius: 25px;
+                
+            }
+    }
+    
+    @media only screen and (max-width: 367px) {
+        .top1 {
+            margin-bottom: -20px;
+        }
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 35px;
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 35px;
+            margin-left: -10px;
+           
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 35px;
+            margin-bottom: 70px;
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -70px;
+          
+            
+        }
+        
+        .practice .ing {
+           width: 90px;
+          
+           
+        }
+        
+        .practice .ing2 {
+            width: 100px;
+            margin-top: 20px;
+            margin-bottom: -20px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:40px;
+            margin-bottom: -43px;
+         }
+        
+        .bot .bit .common {
+            
+            width: 100px; 
+        }
+        
+        .bot .bit .neco {
+            padding: 0px 5px;
+            width: 40px; 
+        }
+    
+        .bot button {  
+            font-size: 7px;
+            height: 30px;
+            margin-right: 14px;
+        }
+    
+    
+        .practice .bot {
+            width: 165px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 187px;
+            left: 130px;
+            }
+    
+            .welcome {
+                font-size: 7px;
+            }
+
+            .bill button {
+                width: 120px;
+                font-size: 13px;
+                margin-right: 12px;
+               
+            }
+            
+            
+            .bill .get {
+                width: 120px;
+                font-size: 13px;
+                margin-right: 12px;
+            
+            }
+
+            .mid {
+                height: 450px;
+             }
+
+           .best {
+                 font-size: 19px;
+             }
+
+            .middle3 h2 {
+                font-size: 17px;
+            }
+
+            
+            .middle3 .midii {
+                margin-left: -50px;
+            }
+
+            .midj {
+                width: 100%;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 5px 0px 0px 0px;
+               
+            }
+
+            .midjp {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 5px 0px -70px 0px;
+               
+            }
+            
+            .midj img {
+                width: 250px;
+                margin-bottom: 20px;
+            
+            }
+            
+            
+            .category {
+                width: 220px;
+               margin: 0px;
+            }
+
+            .category h3 {
+                font-size: 19px;
+            }
+
+            .category p {
+                font-size: 11px;
+            }
+            .midjz3 {
+                margin: 50px 0px -50px 0px;
+                
+            }
+        
+            .midjz4 {
+                margin-top: -50px;
+            }
+    .middle2 {
+        margin-bottom: -500px;
+    }
+            .middle4 h3 {
+               font-size: 19px;
+            }
+
+            .middle4 p {
+                font-size: 8px;
+             }
+            
+            .middle4 .vid {
+                width: 290px;
+                height: 170px;
+                border: 1px solid #e9ecef;
+                border-radius: 25px;
+                
+            }
+    }
+    
+    @media only screen and (max-width: 312px) {
+        .top1 {
+            margin-top: -30px;
+            margin-bottom: -50px;
+        }
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 25px;
+           
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 25px;
+            margin-left: -10px;
+            margin-top: 10px;
+           
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 25px;
+            margin-top: 0px;
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -70px;
+          
+            
+        }
+        
+        .practice .ingp {
+            width: 70px;
+           
+            margin-bottom: -20px;
+           
+         }
+
+        .practice .ing2 {
+            width: 80px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:30px;
+            margin-bottom: -43px;
+         }
+        
+        .bot .bit .common {
+            
+            width: 73px; 
+        }
+        
+        .bot .bit .neco {
+            
+            padding: 0px 5px;
+            width: 30px; 
+        }
+    
+        .bot button {  
+            font-size: 5px;
+            height: 15px;
+            margin-right: 10px;
+        }
+    
+    
+        .practice .bot {
+            width: 145px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 156px;
+            left: 110px;
+            }
+    
+            .welcome {
+                width: 250px;
+                font-size: 6px;
+            }
+
+            .bill button {
+                width: 95px;
+                font-size: 11px;
+                margin-right: 12px;
+               
+            }
+            
+            
+            .bill .get {
+                width: 95px;
+                font-size: 11px;
+                margin-right: 12px;
+            
+            }
+
+            .middle3 h2 {
+                font-size: 14px;
+            }
+
+            .middle3 .midii {
+                margin-left: -75px;
+            }
+
+            .middle4 h3 {
+               font-size: 17px;
+            }
+
+            .middle4 p {
+                font-size: 6px;
+             }
+            
+            .middle4 .vid {
+                width: 250px;
+                height: 140px;
+                border: 1px solid #e9ecef;
+                border-radius: 25px;
+                
+            }
+    }
+    
+    @media only screen and (max-width: 270px) {
+        .top1 {
+            margin-top: -10px;
+            margin-bottom: -50px;
+        }
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 25px;
+           
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 25px;
+            margin-left: -10px;
+            margin-top: 10px;
+           
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 25px;
+            margin-top: 0px;
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -70px;
+          
+            
+        }
+        
+        .practice .ingp {
+            width: 70px;
+           
+            margin-bottom: -20px;
+           
+         }
+
+        .practice .ing2 {
+            width: 80px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:25px;
+            margin-bottom: -43px;
+         }
+        
+        .bot .bit .common {
+            
+            width: 67px; 
+        }
+        
+        .bot .bit .neco {
+            
+            padding: 0px 5px;
+            width: 25px; 
+        }
+    
+        .bot button {  
+            font-size: 4px;
+            height: 15px;
+            margin-right: 10px;
+        }
+    
+    
+        .practice .bot {
+            width: 105px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 170px;
+            left: 100px;
+        
+            }
+    
+            .welcome {
+                width: 230px;
+                font-size: 6px;
+                margin-right: -10px;
+            }
+
+            .bill button {
+                width: 85px;
+                font-size: 10px;
+                margin-right: 12px;
+               
+            }
+            
+            
+            .bill .get {
+                width: 85px;
+                font-size: 10px;
+                margin-right: 12px;
+            
+            }
+
+    }
+    
+    @media only screen and (max-width: 267px) {
+        .top1 {
+            margin-top: -10px;
+            margin-bottom: -50px;
+        }
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 25px;
+           
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 25px;
+            margin-left: -10px;
+            margin-top: 10px;
+           
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 25px;
+            margin-top: 0px;
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -70px;
+          
+            
+        }
+        
+        .practice .ingp {
+            width: 70px;
+           
+            margin-bottom: -20px;
+           
+         }
+
+        .practice .ing2 {
+            width: 80px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:25px;
+            margin-bottom: -43px;
+         }
+        
+        .bot .bit .common {
+            
+            width: 67px; 
+        }
+        
+        .bot .bit .neco {
+            
+            padding: 0px 5px;
+            width: 25px; 
+        }
+    
+        .bot button {  
+            font-size: 4px;
+            height: 15px;
+            margin-right: 10px;
+        }
+    
+    
+        .practice .bot {
+            width: 105px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 170px;
+            left: 110px;
+            }
+    
+            .welcome {
+                width: 230px;
+                font-size: 6px;
+                margin-right: -10px;
+            }
+
+            .bill button {
+                width: 85px;
+                font-size: 10px;
+                margin-right: 12px;
+               
+            }
+            
+            
+            .bill .get {
+                width: 85px;
+                font-size: 10px;
+                margin-right: 12px;
+            
+            }
+
+            .mid2 h3 {
+                font-size: 12px;
+            }
+
+            .mid2 p {
+                font-size: 9px;
+            }
+
+            .midj img {
+                width: 200px;
+               
+            }
+
+            .midj .category {
+                width: 200px;
+               
+            }
+
+            .category h3 {
+                font-size: 16px;
+               
+            }
+
+            .middle3 h2 {
+                font-size: 13px;
+            }
+
+            .middle3 .midii {
+                margin-left: -89px;
+            }
+
+            .middle4 h3 {
+               font-size: 15px;
+            }
+
+            .middle4 p {
+                font-size: 5px;
+             }
+            
+            .middle4 .vid {
+                width: 210px;
+                height: 120px;
+                border: 1px solid #e9ecef;
+                border-radius: 25px;
+                
+            }
+    }
+    
+    @media only screen and (max-width: 251px) {
+        .top1 {
+            margin-top: -50px;
+            margin-bottom: -90px;
+        }
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 25px;
+           
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 25px;
+            margin-left: -10px;
+            margin-top: 10px;
+           
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 25px;
+            margin-top: 0px;
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -70px;
+          
+            
+        }
+        
+        .practice .ingp {
+            width: 65px;
+           
+            margin-bottom: -20px;
+           
+         }
+
+        .practice .ing2 {
+            width: 80px;
+            margin-top: 10px;
+            margin-bottom: -10px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:25px;
+            margin-bottom: -23px;
+         }
+        
+        .bot .bit .common {
+            
+            width: 61px; 
+        }
+        
+        .bot .bit .neco {
+            
+            padding: 0px 5px;
+            width: 25px; 
+        }
+    
+        .bot button {  
+            font-size: 4px;
+            height: 15px;
+            margin-right: 8px;
+        }
+    
+    
+        .practice .bot {
+            width: 105px;
+            height: 90px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 170px;
+            left: 105px;
+            }
+    
+            .welcome {
+                width: 220px;
+                font-size: 5px;
+                margin-right: -10px;
+            }
+
+            .bill button {
+                width: 75px;
+                font-size: 8px;
+                margin-right: 12px;
+                height: 30px;
+               
+               
+            }
+            
+            
+            .bill .get {
+                width: 75px;
+                font-size: 8px;
+                margin-right: 12px;
+                height: 30px;
+            }
+
+            .middle3 h2 {
+                font-size: 12px;
+            }
+
+            .middle3 .midii {
+                margin-left: -100px;
+            }
+}
+
+@media only screen and (max-width: 232px) {
+    .top1 {
+        margin-top: -60px;
+        margin-bottom: -110px;
+    }
+
+   
+    .practice .pra {
+        font-weight: 900;
+        font-size: 20px;
+       
+        
+    }
+    
+    
+    .practice .pre {
+        font-weight: 900;
+        font-size: 20px;
+        margin-left: -20px;
+    }
+    
+    .practice .exc {
+        font-weight: 900;
+        font-size: 20px;
+        margin-top: 0px;
+    }
+
+    .practice {
+        width: 100%;
+        margin-top: -70px;
+      
+        
+    }
+    
+    .practice .ingp {
+        width: 65px;
+        margin-left: -7px;
+        margin-bottom: -35px;
+       
+     }
+
+    .practice .ing2 {
+        width: 80px;
+        margin-top: 10px;
+        margin-bottom: -2px;
+    }
+
+    .bot .bat button {
+        padding: 0px 1px;
+        width:25px;
+        margin-bottom: -23px;
+     }
+    
+    .bot .bit .common {
+        
+        width: 61px; 
+    }
+    
+    .bot .bit .neco {
+        
+        padding: 0px 5px;
+        width: 25px; 
+    }
+
+    .bot button {  
+        font-size: 4px;
+        height: 15px;
+        margin-right: 8px;
+    }
+
+
+    .practice .bot {
+        width: 100px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 155px;
+        left: 95px;
+       
+        }
+
+        .welcome {
+            width: 210px;
+            font-size: 6px;
+            margin-right: 0px;
+           
+        }
+
+        .bill button {
+            width: 65px;
+            font-size: 7px;
+            margin-right: 12px;
+            height: 30px;
+           
+           
+        }
+        
+        
+        .bill .get {
+            width: 65px;
+            font-size: 7px;
+            margin-right: 12px;
+            height: 30px;
+        }
+
+        .middle3 h2 {
+            font-size: 11px;
+        }
+
+        .middle3 .midd {
+              width: 120px;
+        }
+
+        .middle3 .midii {
+            margin-right: -70px;
+            width: 90px;
+        }
+
+        .middle4 {
+            width: 180px;
+         }
+
+        .middle4 h3 {
+            font-size: 11px;
+         }
+
+         .middle4 p {
+             font-size: 4px;
+          }
+         
+         .middle4 .vid {
+             width: 180px;
+             height: 100px;
+             border: 1px solid #e9ecef;
+             border-radius: 25px;
+             margin-bottom: -30px;
+             
+         }
+}

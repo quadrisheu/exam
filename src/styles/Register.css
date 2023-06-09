@@ -1,0 +1,865 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.ttf");
+}
+
+@font-face {
+    font-family: 'Clash Display Variable';
+    src: url("./ClashDisplay-Semibold.otf");
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+.login-container {
+    min-height: 100vh;
+}
+
+.login-head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.login-head img {
+    margin-left: 70px;
+    
+    
+}
+
+.login-head p {
+    margin-right: 170px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-head .log {
+    color: #002099;
+    text-decoration: none;
+}
+
+.login-main {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.login-main h1 {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: 'Mulish', sans-serif;
+    color: #00070f;
+    
+}
+
+.login {
+    
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+form {
+    width: 70%;
+}
+
+form .name {
+    display: flex;
+    flex-direction: row;
+}
+
+input {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 10px;
+    width: 415px;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    padding: 1px 2px;
+    margin: 5px 0px 20px 0px;
+}
+
+.p-container input {
+    border-top-right-radius: 4px solid #e0e0e0;
+    border-bottom-right-radius: 4px solid #e0e0e0;
+    width: 55%;
+    margin-left: 0px;
+}
+
+.mob {
+    margin-top: 20px;
+    
+}
+
+
+
+.p-container span select {
+    border-top-left-radius: 4px solid #e0e0e0;
+    border-bottom-left-radius: 4px solid #e0e0e0;
+    
+    width: 70px;
+    height: 50px;
+}
+
+.pot {
+    width: 53%;
+    margin-top: -12px;
+    margin-bottom: 5px;
+    
+}
+/* use .pot & .put for media querry AiOutlineEye AiOutlineEyeInvisible TbGridDots */
+.put2 {
+    width: 110%;
+    margin-left: 30px;
+}
+
+.put1 {
+    width: 110%;
+    margin-right: 30px;
+}
+
+.pet {
+    width: 110%;
+    position: relative;
+    margin-right: 30px;
+}
+
+.pat {
+    width: 110%;
+    margin-left: 30px;
+    position: relative;
+}
+
+.nam {
+    margin-top: 20px;
+}
+
+.name .spin {
+   
+    position: absolute;
+    top: 519px;
+    left: 1093px;
+   
+}
+
+.name span {
+    
+    position: absolute;
+    top: 519px;
+    left: 865px;
+}
+
+
+label {
+    color: #00070f;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+
+.p-container {
+    width: 81%;
+    height: 35px;
+    margin-bottom: 40px;
+
+}
+
+.login-button {
+    background-color: #1178FF;
+    border: 1px solid #1178FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    height: 50px;
+    margin-top: 23px;
+    width: 100%;
+}
+
+.button {
+    width: 53%;
+    height: 50PX;
+    background-color: #1178FF;
+    border: 1px solid #1178FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0.65rem;
+    text-align: center;
+}
+
+.login-bottom {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -135px;
+}
+
+.radio .rid {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #1178FF;
+    border-radius: 1px;
+    background-color: red;
+}
+
+.radio p {
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 10px;
+    color:rgba(11, 34, 57, 0.73);
+    padding: 0px;
+}
+
+.radio span {
+    
+    padding-left: 7px;
+    padding-bottom: 10px;
+}
+
+.radio .rid {
+    margin-top: -5px;
+}
+
+
+.radio {
+    margin-top: -10px;
+}
+
+@media only screen and (max-width: 1295px) {
+    .put2 {
+    width: 110%;
+    margin-left: 10px;
+}
+
+.pott {
+    margin-bottom: 20px;
+    
+}
+.put1 {
+    width: 95%;
+    margin-right: 0px;
+}
+
+.pet {
+    width: 100%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.pat {
+    width: 100%;
+    margin-left: 15px;
+    position: relative;
+}
+
+.name .lab {
+    padding-left: 10px;
+}
+
+.name .lab1 {
+    padding-left: 15px;
+}
+
+
+/* .name .spin {
+   
+    position: absolute;
+    top: 565px;
+    left: 750px;
+   
+}
+
+.name span {
+    
+    position: absolute;
+    top: 565px;
+    left: 555px;
+} */
+
+.p-container input {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    width: 54%;
+    margin-left: 0px;
+}
+
+.p-container span select {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: 1px solid #e0e0e0;
+    width: 70px;
+    height: 50px;
+}
+
+}
+
+@media only screen and (max-width: 1210px) {
+    .put2 {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.put1 {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.pet {
+    width: 100%;
+    position: relative;
+    margin-right: 10px;
+}
+
+.pat {
+    width: 100%;
+    margin-left: 10px;
+    position: relative;
+}
+
+.name .spin {
+   
+    position: absolute;
+    top: 519px;
+    left: 861px;
+   
+}
+
+.name span {
+    
+    position: absolute;
+    top: 519px;
+    left: 671px;
+}
+
+.p-container input {
+    
+    width: 56%;
+    margin-left: 0px;
+}
+
+}
+
+@media only screen and (max-width: 1175px) {
+    .put2 {
+    width: 81%;
+    margin-left: 1px;
+}
+
+.put1 {
+    width: 81%;
+    margin-right: 1px;
+}
+
+.pet {
+    width: 81%;
+    position: relative;
+    margin-right: 1px;
+}
+
+.pat {
+    width: 81%;
+    margin-left: 1px;
+    position: relative;
+}
+
+.name .spin {
+   
+    display: none;
+}
+
+.name span {
+    
+    display: none;
+}
+
+.p-container input {
+    
+    width: 51%;
+    margin-left: 0px;
+}
+
+.name .lab {
+    padding-left: 3px;
+}
+
+.name .lab1 {
+    padding-left: 3px;
+}
+
+label {
+   
+    font-size: 14px;
+    font-weight: 400;
+}
+
+}
+
+@media only screen and (max-width: 995px) {
+    .put2 {
+    width: 75%;
+    margin-left: 0px;
+}
+
+.put1 {
+    width: 75%;
+    margin-right: 0px;
+}
+
+.pet {
+    width: 75%;
+    position: relative;
+    margin-right: 1px;
+}
+
+.pat {
+    width: 75%;
+    margin-left: 1px;
+    position: relative;
+}
+
+.name .spin {
+   
+    display: none;
+}
+
+.name span {
+    
+    display: none;
+}
+
+.p-container input {
+    
+    width: 50%;
+    margin-left: 0px;
+}
+
+
+label {
+    color: #00070f;
+    font-size: 14px;
+    
+}
+
+.login-main h1 {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    font-size: 35px;
+    font-weight: 900;
+   
+}
+
+.login-head img {
+    margin-left: 70px;
+    
+    
+}
+
+.login-head p {
+    margin-right: 150px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+}
+
+@media only screen and (max-width: 963px) {
+    .put2 {
+    width: 75%;
+    margin-left: -9px;
+}
+
+.put1 {
+    width: 75%;
+    margin-right: 0px;
+}
+
+.pet {
+    width: 75%;
+    position: relative;
+    margin-right: 1px;
+}
+
+.pat {
+    width: 75%;
+    margin-left: -9px;
+    position: relative;
+}
+
+
+.name .lab {
+    padding-left: 0px;
+}
+
+.name .lab1 {
+    padding-left: 0px;
+    
+}
+
+form label {
+    color: #00070f;
+    font-size: 13px;
+    
+}
+
+
+}
+
+@media only screen and (max-width: 930px) {
+    .put2 {
+    width: 75%;
+    margin-left: -25px;
+}
+
+.put1 {
+    width: 75%;
+    margin-right: 0px;
+}
+
+.pet {
+    width: 75%;
+    position: relative;
+    margin-right: 1px;
+}
+
+.pat {
+    width: 75%;
+    margin-left: -25px;
+    position: relative;
+}
+
+
+.name .lab {
+   margin-left: -14px;
+}
+
+.name .lab1 {
+    margin-left: -19px;
+    
+}
+
+form label {
+    color: #00070f;
+    font-size: 11px;
+    
+}
+
+.p-container input {
+    
+    width: 47%;
+    
+}
+
+}
+
+@media only screen and (max-width: 825px) {
+    .put2 {
+    width: 79%;
+    margin-left: -45px;
+}
+
+.put1 {
+    width: 65%;
+    margin-right: 0px;
+}
+
+.pet {
+    width: 65%;
+    position: relative;
+    margin-right: 1px;
+}
+
+.pat {
+    width: 79%;
+    margin-left: -45px;
+    position: relative;
+}
+
+
+.name .lab {
+   margin-left: -36px;
+}
+
+.name .lab1 {
+    margin-left: -35px;
+    
+}
+
+form label {
+    color: #00070f;
+    font-size: 10px;
+    
+}
+
+.p-container input {
+    width: 45%;
+}
+
+.login-bottom {
+    margin-left: -95px;
+}
+
+}
+
+@media only screen and (max-width: 750px) {
+
+    form .name {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 10px;
+    width: 53%;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    padding: 1px 2px;
+    margin: 10px 0px 20px 0px;
+}
+
+.p-container input {
+    
+    width: 62%;
+    margin-left: 0px;
+}
+
+.pot {
+    width: 70%;
+    
+}
+
+
+.put2 {
+    width: 71%;
+    margin-left: 0px;
+}
+
+.put1 {
+    width: 71%;
+    margin-right: 0px;
+}
+
+.pet {
+    width: 71%;
+    position: relative;
+    margin-right: 0px;
+}
+
+.pat {
+    width: 71%;
+    margin-left: 0px;
+    position: relative;
+}
+
+.name .lab {
+    margin-left: 0px;
+ }
+ 
+ .name .lab1 {
+     margin-left: 0px;
+     
+ }
+
+
+label {
+    color: #00070f;
+    
+    
+}
+
+.login-main h1 {
+    width: 20%;
+    display: flex;
+    justify-content: end;
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+
+.login-head img {
+    margin-left: 30px;
+    
+   
+}
+
+.login-head p {
+    margin-right: 100px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.button {
+    width: 70%;
+    background-color: #1178FF;
+    border: 1px solid #1178FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0.65rem;
+    text-align: center;
+}
+
+.login-bottom {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -65px;
+}
+
+.login {
+    margin-left: 40px;
+}
+
+.radio p {
+    font-family: 'Mulish';
+    font-weight: 300;
+    font-size: 6px;
+    color:rgba(11, 34, 57, 0.73);
+    padding: 0px;
+}
+
+}
+
+@media only screen and (max-width: 430px) {
+
+   
+
+.p-container input {
+    
+    width: 57%;
+    margin-left: 0px;
+}
+
+
+
+.login-main h1 {
+    width: 100%;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 50px;
+
+}
+
+
+
+.login-bottom {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -25px;
+}
+
+
+
+}
+
+@media only screen and (max-width: 332px) {
+
+   
+
+.p-container input {
+    
+    width: 56%;
+    margin-left: 0px;
+}
+
+.p-container span select {
+    border-top-left-radius: 4px solid #e0e0e0;
+    border-bottom-left-radius: 4px solid #e0e0e0;
+    
+    width: 50px;
+    height: 50px;
+}
+
+.login-bottom {
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -15px;
+}
+
+.radio p {
+    font-family: 'Mulish';
+    font-weight: 100;
+    font-size: 5px;
+    color:rgba(11, 34, 57, 0.73);
+    padding: 0px;
+}
+
+.button {
+    width: 67%;
+    height: 50PX;
+    background-color: #1178FF;
+    border: 1px solid #1178FF;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    cursor: pointer;
+    padding: 0.65rem;
+    text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 332px) {
+
+   
+
+    .p-container input {
+        
+        width: 56%;
+        margin-left: 0px;
+    }
+    
+    .p-container span select {
+        border-top-left-radius: 4px solid #e0e0e0;
+        border-bottom-left-radius: 4px solid #e0e0e0;
+        
+        width: 30px;
+        height: 50px;
+    }
+    
+    
+    
+    }
+
