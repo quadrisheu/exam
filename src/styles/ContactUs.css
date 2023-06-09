@@ -441,3 +441,71 @@ button img {
         
     }
 }
+
+/* hereeeeeeeeeeee.............. */
+
+@media screen and (max-width: 507px) {
+    .banner .thre {
+        font-size: 15px; 
+    }
+    .banner .three {
+        font-size: 30px; 
+    }
+    .banner p {
+        font-size: 13px; 
+    }
+}
+
+@media screen and (max-width: 370px) {
+    
+    .banner .thre {
+        font-size: 13px; 
+    }
+    .banner .three {
+        font-size: 27px; 
+    }
+    .banner p {
+        font-size: 11px; 
+    }
+}
+
+@media screen and (max-width: 340px) {
+    
+    .banner .thre {
+        font-size: 12px; 
+    }
+    .banner .three {
+        font-size: 25px; 
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+}
+
+@media screen and (max-width: 300px) {
+    
+    .banner .thre {
+        font-size: 12px; 
+    }
+    .banner .three {
+        font-size: 20px; 
+        
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+}
+
+@media screen and (max-width: 250px) {
+    
+    .banner .thre {
+        font-size: 10px; 
+    }
+    .banner .three {
+        font-size: 18px; 
+        
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+}

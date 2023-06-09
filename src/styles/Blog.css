@@ -85,5 +85,437 @@
     border-radius: 4px;
 }
 
+@media screen and (max-width: 1030px){
+   
+    .next .buk {
+        width: 350px;
+    }
 
+}    
+
+@media screen and (max-width: 960px){
+   
+    .next .buk {
+        width: 300px;
+    }
+
+}   
+
+@media screen and (max-width: 910px){
+    .next .buk {
+        width: 250px;
+    }
+   
+    .next1 {
+   
+    
+        width: 30%;
+        
+    }
+    
+    .next2 {
+       
+        
+        width: 30%;
+       
+    }
+
+}    
+
+@media screen and (max-width: 750px){
+    .next .buk {
+        width: 200px;
+    }
+
+}    
+
+@media screen and (max-width: 712px){
+    .faq-two-sub{
+        width: 50%;
+        height: 120px;
+        margin-right: 10px;
+        font-size: 14px;
+        
+    }
+
+    .faq-two-parent{
+        width: 100%;
+    }
+
+}    
+
+@media screen and (max-width: 650px) {
+    
+   
+  .feed  .next1 {
+   
+    
+        width: 80%;
+        margin-right: 70px;
+    }
+    
+   .feed .next2 {
+       
+       
+        width: 80%;
+      
+    }
+}
+
+@media screen and (max-width: 616px){
+    .faq-two-sub{
+        width: 50%;
+        height: 120px;
+        margin-right: 10px;
+        font-size: 12px;
+        
+    }
+
+    .faq-two-parent{
+        width: 100%;
+        
+    }
+
+}    
+
+
+@media screen and (max-width: 555px) {
+    .latest {
+    
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 17px;
+        color: #212529;
+        margin: 20px 0;
+    }
+    
+   
+    .feed  .next1 {
+     
+      
+          width: 80%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+          
+          width: 80%;
+          
+      }
+  }
+
+  @media screen and (max-width: 523px) {
+    .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-bottom: 70px;
+        
+    }
+    
+   
+    .feed  .next1 {
+     
+     
+          width: 100%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+         
+          width: 150px;
+         
+      }
+
+      .faq-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .faq-two{
+        
+        width:  450px;
+        
+    }
+
+  }
+
+  @media screen and (max-width: 507px) {
+    .banner .thre {
+        font-size: 15px; 
+    }
+    .banner .three {
+        font-size: 30px; 
+    }
+    .banner p {
+        font-size: 13px; 
+    }
+    .faq-two{
+        width: 150%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .latest {
+        font-size: 14px;
+        
+    }
+
+    .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-bottom: 70px;
+        
+    }
+    
+   
+    .feed  .next1 {
+     
+          width: 80%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+          width: 80%;
+          /* margin-right: 30px; */
+      }
+  }
+@media screen and (max-width: 490px) {
+    
+
+ .newsfeed .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        margin-bottom: 70px;
+        
+    }
+   
+    .feed  .next1 {
+          width: 100%;
+          margin-bottom: 30px;
+      }
+      
+     .feed .next2 {
+        width: 100%;      
+      }
+
+.next .buk {
+        width: 100%;      
+      }
+  }
+
+
+  @media screen and (max-width: 414px) {
+    .faq-two{
+        width: 170%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+
+    .latest {
+    
+        
+        font-size: 13px;
+        
+    }
+
+    
+  }
+
+  @media screen and (max-width: 395px) {
+    
+    .latest {
+        font-size: 11px;  
+    }
+
+    
+  }
+
+  @media screen and (max-width: 370px) {
+    
+    .banner .thre {
+        font-size: 13px; 
+    }
+    .banner .three {
+        font-size: 27px; 
+    }
+    .banner p {
+        font-size: 11px; 
+    }
+    .faq-two{
+        width: 170%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .latest {
+        font-size: 10px;
+        
+    }
+
+    .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-bottom: 70px;
+        
+    }
+    
+   
+    .feed  .next1 {
+     
+          width: 90%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+          width: 90%;
+          /* margin-right: 30px; */
+      }    
+  }
+
+  @media screen and (max-width: 340px) {
+    
+    .banner .thre {
+        font-size: 12px; 
+    }
+    .banner .three {
+        font-size: 25px; 
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+    .faq-two{
+        width: 190%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .latest {
+        font-size: 8px;
+        
+    }
+
+    .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-bottom: 70px;
+        
+    }
+    
+   
+    .feed  .next1 {
+     
+          width: 90%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+          width: 90%;
+          
+      }    
+
+      .next .butt {
+        width: 130px;
+        font-size: 14px;
+       
+        margin-top: 0px;
+        padding : 10px 5px;
+        border-radius: 4px;
+    }
+  }
+  @media screen and (max-width: 300px) {
+    
+    .banner .thre {
+        font-size: 12px; 
+    }
+    .banner .three {
+        font-size: 20px; 
+        
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+    .faq-two{
+        width: 190%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .latest {
+        font-size: 8px;
+        
+    }
+
+    .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-bottom: 70px;
+        
+    }
+    
+   
+    .feed  .next1 {
+     
+          width: 90%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+          width: 90%;
+          
+      }    
+
+      .next .butt {
+        width: 130px;
+        font-size: 14px;
+       
+        margin-top: 0px;
+        padding : 10px 5px;
+        border-radius: 4px;
+    }
+  }
+
+  @media screen and (max-width: 250px) {
+    
+    .banner .thre {
+        font-size: 10px; 
+    }
+    .banner .three {
+        font-size: 18px; 
+        
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+
+    }
 

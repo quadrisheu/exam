@@ -90,7 +90,7 @@
         justify-content: space-between;
     }
     .faq-two-sub{
-        width: 100%;
+        width: 80%;
         font-size: 13px;
     }
 }
@@ -296,14 +296,14 @@
     .feed  .next1 {
      
      
-          width: 150%;
+          width: 100%;
           margin-right: 30px;
       }
       
      .feed .next2 {
          
          
-          width: 150%;
+          width: 150px;
          
       }
 
@@ -316,8 +316,8 @@
     }
 
     .faq-two{
-        background-color: #1178FF;
-        width:  450%;
+        
+        width:  450px;
         
     }
 
@@ -510,15 +510,85 @@
      .feed .next2 {
          
           width: 90%;
-          /* margin-right: 30px; */
+          
       }    
 
       .next .butt {
         width: 130px;
         font-size: 14px;
-        background-color: #ff1131;
+       
         margin-top: 0px;
         padding : 10px 5px;
         border-radius: 4px;
     }
   }
+  @media screen and (max-width: 300px) {
+    
+    .banner .thre {
+        font-size: 12px; 
+    }
+    .banner .three {
+        font-size: 20px; 
+        
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+    .faq-two{
+        width: 190%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    .latest {
+        font-size: 8px;
+        
+    }
+
+    .feed {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        margin-bottom: 70px;
+        
+    }
+    
+   
+    .feed  .next1 {
+     
+          width: 90%;
+          margin-right: 30px;
+      }
+      
+     .feed .next2 {
+         
+          width: 90%;
+          
+      }    
+
+      .next .butt {
+        width: 130px;
+        font-size: 14px;
+       
+        margin-top: 0px;
+        padding : 10px 5px;
+        border-radius: 4px;
+    }
+  }
+
+  @media screen and (max-width: 250px) {
+    
+    .banner .thre {
+        font-size: 10px; 
+    }
+    .banner .three {
+        font-size: 18px; 
+        
+    }
+    .banner p {
+        font-size: 7px; 
+    }
+
+    }

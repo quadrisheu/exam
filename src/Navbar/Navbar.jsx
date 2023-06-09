@@ -25,8 +25,8 @@ function Navbar(){
                 <Link className='mee' to='/contactus' onClick={handleClose}>Contact Us</Link>
             </div>
             <div className='nav-two-two'>
-                <Link to='/register' onClick={handleClose}><button style={{background: '#1178ff', color: '#ffffff', width: '100px', height:'35px', border: 'none', marginRight:'10px'}}>Register</button> </Link>
-                <Link to='/login' onClick={handleClose}><button style={{background: '#ffffff',color: '#1178ff', width: '100px', height: '35px',  border: '2px solid #1178ff'}}>Log In</button> </Link>
+                <Link to='/register' className='star' onClick={handleClose}><button style={{background: '#1178ff', color: '#ffffff', width: '100px', height:'35px', border: 'none', marginRight:'10px'}}>Register</button> </Link>
+                <Link to='/login'  className='star' onClick={handleClose}><button style={{background: '#ffffff',color: '#1178ff', width: '100px', height: '35px',  border: '2px solid #1178ff'}}>Log In</button> </Link>
             </div>
             </div>
             <div className='menu-bars'>
