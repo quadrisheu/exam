@@ -26,6 +26,7 @@
     padding: 100px 65px;
     color: #fff;
     margin-bottom: 50px;
+    margin-top: 10px;
 }
 
 .banner h6 {
@@ -190,7 +191,7 @@ button img {
 }
 
 .need p {
-    font-size: 20px;
+    font-size: 19px;
     
 }
 
@@ -202,12 +203,11 @@ button img {
         display: flex;
         flex-direction: column;
         
-        padding-left: 50px;
+        padding-left: 10px;
     }
     
     .us2 {
         width: 40%;
-        
     }
     
     .us2a {    
@@ -215,6 +215,22 @@ button img {
         flex-direction: row;
     }
     
+    .need {
+        
+        padding: 55px 40px;
+        margin: 35px 0px 130px 0px;
+    }
+    
+    .need h3 {
+        font-size: 35px;
+        font-weight: 500;
+        margin-bottom: 8px;
+    }
+    
+    .need p {
+        font-size: 17px;
+        
+    }
     
 
 }
@@ -236,8 +252,8 @@ button img {
         
         display: flex;
         flex-direction: column;
-        
-        padding-left: 50px;
+        margin-bottom: 50px;
+        padding-left: 10px;
     }
     
     .us2 {
@@ -269,25 +285,7 @@ button img {
     }
     
     .us1 {
-        width: 120%;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 50px;
-        padding-left: 50px;
-    }
-    
-    .us2 {
-        width: 120%;
-        margin-left: 0px;
-        margin-top: 30px;
-        
-    }
-}
-
-@media only screen and (max-width: 345px) {
-    
-    .us1 {
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
@@ -295,7 +293,31 @@ button img {
     }
     
     .us2 {
-        width: 130%;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 30px;
+        
+    }
+    
+    
+    .need p {
+        font-size: 15px;
+        
+    }
+}
+
+@media only screen and (max-width: 345px) {
+    
+    .us1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+        padding-left: 10px;
+    }
+    
+    .us2 {
+        width: 100%;
         margin-left: 0px;
         margin-top: 30px;
         
@@ -310,7 +332,7 @@ button img {
 @media only screen and (max-width: 320px) {
     
     .us1 {
-        width: 130%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
@@ -318,7 +340,7 @@ button img {
     }
     
     .us2 {
-        width: 130%;
+        width: 100%;
         margin-left: 0px;
         margin-top: 30px;
         
@@ -331,7 +353,7 @@ button img {
 @media only screen and (max-width: 307px) {
     
     .us1 {
-        width: 140%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
@@ -339,13 +361,13 @@ button img {
     }
     
     .us2 {
-        width: 140%;
+        width: 100%;
         margin-left: 0px;
         margin-top: 30px;
         
     }
     .need .ned {
-        font-size: 15px;
+        font-size: 16px;
     }
     .need p {
         font-size: 8px;
@@ -359,7 +381,7 @@ button img {
 @media only screen and (max-width: 271px) {
     
     .us1 {
-        width: 140%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
@@ -367,7 +389,7 @@ button img {
     }
     
     .us2 {
-        width: 130%;
+        width: 100%;
         margin-left: 0px;
         margin-top: 10px;
         
@@ -393,7 +415,7 @@ button img {
 @media only screen and (max-width: 250px) {
     
     .us1 {
-        width: 140%;
+        width: 90%;
         display: flex;
         flex-direction: column;
         margin-bottom: 50px;
@@ -401,7 +423,7 @@ button img {
     }
     
     .us2 {
-        width: 150%;
+        width: 90%;
         margin-left: 0px;
         margin-top: 10px;
         
@@ -409,18 +431,19 @@ button img {
 
     .need {
         
-        padding: 55px 5px;
+        padding: 55px 15px;
         margin: 35px 0px 100px 0px;
     }
     .need .ned {
-        font-size: 15px;
+        font-size: 16px;
     }
     .need p {
-        font-size: 6px;
+        font-size: 8px;
     }
 
     .verto {
-        margin-left: 1px;
+        margin-left: 10px;
+        
     }
 
   .us1  .ox {
@@ -443,6 +466,28 @@ button img {
 }
 
 /* hereeeeeeeeeeee.............. */
+
+@media screen and (max-width: 627px) {
+    .contact-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    }
+
+@media screen and (max-width: 523px) {
+    .contact-container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    }
 
 @media screen and (max-width: 507px) {
     .banner .thre {
@@ -508,4 +553,6 @@ button img {
     .banner p {
         font-size: 7px; 
     }
+
+    
 }

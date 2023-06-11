@@ -764,7 +764,12 @@
         flex-direction: column;
         position: absolute;
         top: 330px;
-        left: 420px;
+        left: 410px;
+    }
+
+    .welcome {
+        font-size: 16px;
+        width: 630px;
     }
 
     .mid2 h3 {
@@ -856,7 +861,12 @@
         flex-direction: column;
         position: absolute;
         top: 330px;
-        left: 390px;
+        left: 380px;
+        }
+
+        .welcome {
+            font-size: 15px;
+            width: 640px;
         }
 
         .middle {
@@ -1008,6 +1018,11 @@
         top: 330px;
         left: 310px;
         }
+
+        .welcome {
+            font-size: 15px;
+            width: 610px;
+        }
 }
 
 @media only screen and (max-width: 683px) {
@@ -1026,7 +1041,12 @@
         flex-direction: column;
         position: absolute;
         top: 330px;
-        left: 320px;
+        left: 330px;
+        }
+
+        .welcome {
+            font-size: 15px;
+            width: 630px;
         }
 }
 
@@ -1076,7 +1096,7 @@
 
     .bot .bat button {
         padding: 0px 5px;
-        width:60px;
+        width:70px;
         margin-bottom: -33px;
         
         
@@ -1084,12 +1104,12 @@
     
     .bot .bit .common {
         
-        width: 140px; 
+        width: 147px; 
     }
     
     .bot .bit .neco {
         padding: 0px 5px;
-        width: 60px; 
+        width: 70px; 
     }
 
     .bot button {  
@@ -1111,6 +1131,7 @@
 
         .welcome {
             font-size: 14px;
+            width: 570px;
         }
         
 }
@@ -1185,12 +1206,13 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 260px;
+        top: 272px;
         left: 261px;
         }
 
         .welcome {
-            font-size: 13px;
+            width: 514px;
+            font-size: 9px;
         }
         
         .middle4 .vid {
@@ -1267,18 +1289,18 @@
 
 
     .practice .bot {
-        
         width: 230px;
         height: 130px;
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 235px;
-        left: 215px;
+        top: 265px;
+        left: 223px;
         }
 
         .welcome {
-            font-size: 11px;
+            width: 470px;
+            font-size: 9px;
         }
         
         .mid {
@@ -1288,7 +1310,23 @@
         }
 }
 
-@media only screen and (max-width: 485px) {
+@media only screen and (max-width: 500px) {
+    .practice .bot {
+        width: 230px;
+        height: 130px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 245px;
+        left: 227px;
+        }
+
+        .welcome {
+            width: 460px;
+            font-size: 9px;
+        }
+
+
     .middle3 h2 {
         font-size: 25px;
     }
@@ -1328,9 +1366,8 @@
         }
         
         .practice .ing {
-           width: 110px;
-          
-           
+           width: 100px; 
+           margin-bottom: -27px;
         }
         
         .practice .ing2 {
@@ -1340,14 +1377,14 @@
         .bot .bat button {
             padding: 0px 1px;
             width:45px;
-            margin-bottom: -33px;
+            margin-bottom: -37px;
             
             
         }
         
         .bot .bit .common {
             
-            width: 120px; 
+            width: 117px; 
         }
         
         .bot .bit .neco {
@@ -1358,6 +1395,7 @@
         .bot button {  
             font-size: 9px;
             height: 35px;
+            margin-right: 14px;
            
         }
     
@@ -1369,11 +1407,12 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 195px;
-            left: 190px;
+            top: 200px;
+            left: 203px;
             }
     
             .welcome {
+                width: 390px;
                 font-size: 9px;
             }
             
@@ -1409,29 +1448,46 @@
                
             }
             
+            .middle4 h3 {
+                font-size: 19px;
+             }
+ 
+             .middle4 p {
+                 font-size: 9px;
+              }
+             
+             .middle4 .vid {
+                 width: 330px;
+                 height: 170px;
+                 border: 1px solid #e9ecef;
+                 border-radius: 25px;
+                 
+             }
     }
     
-    @media only screen and (max-width: 462px) {
+    @media only screen and (max-width: 399px) {
 
        
         .practice .pra {
             font-weight: 900;
-            font-size: 45px;
+            font-size: 49px;
             
         }
         
         
         .practice .pre {
             font-weight: 900;
-            font-size: 45px;
+            font-size: 49px;
+            margin-top: -10px;
             margin-left: -10px;
-           
+
         }
         
         .practice .exc {
             font-weight: 900;
-            font-size: 45px;
-            margin-bottom: 70px;
+            font-size: 49px;
+           
+        
         }
     
         .practice {
@@ -1441,79 +1497,72 @@
         }
         
         .practice .ing {
-           width: 90px;
-          
+           width: 110px;
+           margin-left: -5px;
+           margin-bottom: -20px;
            
         }
         
         .practice .ing2 {
-            width: 100px;
-            margin-top: 20px;
+            width: 110px;
             margin-bottom: -20px;
         }
     
         .bot .bat button {
             padding: 0px 1px;
-            width:40px;
-            margin-bottom: -43px;
-         }
+            width:45px;
+            margin-bottom: -40px;
+            
+            
+        }
         
         .bot .bit .common {
             
-            width: 110px; 
+            width: 101px; 
         }
         
         .bot .bit .neco {
             padding: 0px 5px;
-            width: 45px; 
+            width: 50px; 
         }
     
         .bot button {  
             font-size: 8px;
             height: 35px;
-            margin-right: 17px;
+           
         }
     
     
         .practice .bot {
             
-            width: 175px;
+            width: 180px;
             height: 110px;
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 205px;
-            left: 160px;
+            top: 210px;
+            left: 177px;
             }
     
             .welcome {
-                font-size: 8px;
+                font-size: 9px;
             }
 
             .bill button {
-                width: 140px;
-                font-size: 15px;
+                width: 130px;
+                font-size: 13px;
                 margin-right: 12px;
                
             }
             
             
             .bill .get {
-                width: 140px;
-                font-size: 15px;
+                width: 130px;
+                font-size: 13px;
                 margin-right: 12px;
             
             }
-
-            .middle3 h2 {
-                font-size: 17px;
-            }
-
             
-            .middle3 .midii {
-                margin-left: -50px;
-            }
-
             .midj {
                 width: 100%;
                 
@@ -1545,27 +1594,181 @@
                 margin-top: 150px;
                
             }
-
+            
             .middle4 h3 {
-               font-size: 19px;
+                font-size: 19px;
+             }
+ 
+             .middle4 p {
+                 font-size: 9px;
+              }
+             
+             .middle4 .vid {
+                 width: 330px;
+                 height: 170px;
+                 border: 1px solid #e9ecef;
+                 border-radius: 25px;
+                 
+             }
+    }
+    
+    @media only screen and (max-width: 379px) {
+        .top1 {
+            margin-top: -10px;
+            margin-bottom: -30px;
+        }
+
+       
+        .practice .pra {
+            font-weight: 900;
+            font-size: 47px;
+            
+        }
+        
+        
+        .practice .pre {
+            font-weight: 900;
+            font-size: 47px;
+            margin-top: -10px;
+            margin-left: -10px;
+
+        }
+        
+        .practice .exc {
+            font-weight: 900;
+            font-size: 47px;
+           
+        
+        }
+    
+        .practice {
+            width: 100%;
+            margin-top: -40px;
+            
+        }
+        
+        .practice .ing {
+           width: 100px;
+           margin-left: -5px;
+           margin-bottom: -20px;
+           
+        }
+        
+        .practice .ing2 {
+            width: 110px;
+            margin-bottom: -20px;
+        }
+    
+        .bot .bat button {
+            padding: 0px 1px;
+            width:45px;
+            margin-bottom: -43px;
+            
+            
+        }
+        
+        .bot .bit .common {
+            
+            width: 100px; 
+        }
+        
+        .bot .bit .neco {
+            padding: 0px 5px;
+            width: 50px; 
+        }
+    
+        .bot button {  
+            font-size: 8px;
+            height: 35px;
+           
+        }
+    
+    
+        .practice .bot {
+            
+            width: 180px;
+            height: 110px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 205px;
+            left: 170px;
+            }
+    
+            .welcome {
+                font-size: 8px;
             }
 
-            .middle4 p {
-                font-size: 8px;
-             }
+            .bill button {
+                width: 130px;
+                font-size: 13px;
+                margin-right: 12px;
+               
+            }
             
-            .middle4 .vid {
-                width: 290px;
-                height: 170px;
-                border: 1px solid #e9ecef;
-                border-radius: 25px;
+            
+            .bill .get {
+                width: 130px;
+                font-size: 13px;
+                margin-right: 12px;
+            
+            }
+            
+            .midj {
+                width: 100%;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 10px 0px;
+               
+            }
+            
+            .midj img {
+                width: 350px;
+                margin-bottom: 20px;
+            
+            }
+            
+            
+            .category {
+                width: 300px;
+               margin: 0px;
+            }
+            .midjz3 {
+                margin: 250px 0px 50px 0px;
                 
             }
+        
+            .midjz4 {
+                margin-top: 150px;
+               
+            }
+            
+            .middle4 h3 {
+                font-size: 19px;
+             }
+ 
+             .middle4 p {
+                 font-size: 9px;
+              }
+             
+             .middle4 .vid {
+                 width: 330px;
+                 height: 170px;
+                 border: 1px solid #e9ecef;
+                 border-radius: 25px;
+                 
+             }
     }
+    
+
     
     @media only screen and (max-width: 367px) {
         .top1 {
-            margin-bottom: -20px;
+            margin-top: -40px;
+            margin-bottom: -70px;
         }
 
        
@@ -1616,7 +1819,7 @@
         
         .bot .bit .common {
             
-            width: 100px; 
+            width: 90px; 
         }
         
         .bot .bit .neco {
@@ -1627,7 +1830,7 @@
         .bot button {  
             font-size: 7px;
             height: 30px;
-            margin-right: 14px;
+            margin-right: 10px;
         }
     
     
@@ -1637,11 +1840,12 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 187px;
-            left: 130px;
+            top: 157px;
+            left: 133px;
             }
     
             .welcome {
+                width: 297px;
                 font-size: 7px;
             }
 
@@ -1725,9 +1929,14 @@
             .midjz4 {
                 margin-top: -50px;
             }
-    .middle2 {
-        margin-bottom: -500px;
-    }
+       .middle2 {
+              margin-bottom: -500px;
+            }
+
+            .midd {
+                width: 60%;  
+            }
+
             .middle4 h3 {
                font-size: 19px;
             }
@@ -1745,10 +1954,10 @@
             }
     }
     
-    @media only screen and (max-width: 312px) {
+    @media only screen and (max-width: 313px) {
         .top1 {
-            margin-top: -30px;
-            margin-bottom: -50px;
+            margin-top: -70px;
+            margin-bottom: -97px;
         }
 
        
@@ -1812,8 +2021,8 @@
         }
     
         .bot button {  
-            font-size: 5px;
-            height: 15px;
+            font-size: 6px;
+            height: 19px;
             margin-right: 10px;
         }
     
@@ -1824,17 +2033,17 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 156px;
-            left: 110px;
+            top: 115px;
+            left: 107px;
             }
     
             .welcome {
-                width: 250px;
+                width: 247px;
                 font-size: 6px;
             }
 
             .bill button {
-                width: 95px;
+                width: 92px;
                 font-size: 11px;
                 margin-right: 12px;
                
@@ -1842,7 +2051,7 @@
             
             
             .bill .get {
-                width: 95px;
+                width: 92px;
                 font-size: 11px;
                 margin-right: 12px;
             
@@ -1873,10 +2082,11 @@
             }
     }
     
-    @media only screen and (max-width: 270px) {
+    @media only screen and (max-width: 272px) {
         .top1 {
-            margin-top: -10px;
-            margin-bottom: -50px;
+           padding-top: -70px;
+           
+            margin-bottom: -97px;
         }
 
        
@@ -1924,44 +2134,44 @@
     
         .bot .bat button {
             padding: 0px 1px;
-            width:25px;
+            width:27px;
             margin-bottom: -43px;
          }
         
         .bot .bit .common {
             
-            width: 67px; 
+            width: 68px; 
         }
         
         .bot .bit .neco {
             
             padding: 0px 5px;
-            width: 25px; 
+            width: 27px; 
         }
     
-        .bot button {  
-            font-size: 4px;
-            height: 15px;
-            margin-right: 10px;
+        .bot button {
+            font-size: 5px;
+            height: 19px;
+            margin-right: 11px;
         }
     
     
         .practice .bot {
-            width: 105px;
+           
+            width: 115px;
             height: 90px;
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 170px;
-            left: 100px;
+            top: 117px;
+            left: 107px;
         
             }
     
             .welcome {
-                width: 230px;
+                width: 237px;
                 font-size: 6px;
-                margin-right: -10px;
-            }
+              }
 
             .bill button {
                 width: 85px;
@@ -1982,8 +2192,8 @@
     
     @media only screen and (max-width: 267px) {
         .top1 {
-            margin-top: -10px;
-            margin-bottom: -50px;
+            margin-top: -70px;
+            margin-bottom: -110px;
         }
 
        
@@ -2048,7 +2258,7 @@
     
         .bot button {  
             font-size: 4px;
-            height: 15px;
+            height: 17px;
             margin-right: 10px;
         }
     
@@ -2059,14 +2269,14 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 170px;
+            top: 120px;
             left: 110px;
             }
     
             .welcome {
-                width: 230px;
-                font-size: 6px;
-                margin-right: -10px;
+                width: 225px;
+                font-size: 5px;
+               
             }
 
             .bill button {
@@ -2134,8 +2344,8 @@
     
     @media only screen and (max-width: 251px) {
         .top1 {
-            margin-top: -50px;
-            margin-bottom: -90px;
+            margin-top: -75px;
+            margin-bottom: -125px;
         }
 
        
@@ -2200,7 +2410,7 @@
     
         .bot button {  
             font-size: 4px;
-            height: 15px;
+            height: 17px;
             margin-right: 8px;
         }
     
@@ -2211,7 +2421,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 170px;
+            top: 147px;
             left: 105px;
             }
     
@@ -2249,16 +2459,13 @@
 
 @media only screen and (max-width: 232px) {
     .top1 {
-        margin-top: -60px;
-        margin-bottom: -110px;
+        margin-top: -96px;
+        margin-bottom: -129px;
     }
 
-   
-    .practice .pra {
+   .practice .pra {
         font-weight: 900;
         font-size: 20px;
-       
-        
     }
     
     
@@ -2319,26 +2526,26 @@
 
 
     .practice .bot {
-        width: 100px;
+        width: 99px;
         height: 50px;
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 155px;
-        left: 95px;
+        top: 130px;
+        left: 91px;
        
         }
 
         .welcome {
-            width: 210px;
-            font-size: 6px;
+            width: 200px;
+            font-size: 4px;
             margin-right: 0px;
            
         }
 
         .bill button {
-            width: 65px;
-            font-size: 7px;
+            width: 60px;
+            font-size: 6px;
             margin-right: 12px;
             height: 30px;
            
@@ -2347,8 +2554,8 @@
         
         
         .bill .get {
-            width: 65px;
-            font-size: 7px;
+            width: 60px;
+            font-size: 6px;
             margin-right: 12px;
             height: 30px;
         }

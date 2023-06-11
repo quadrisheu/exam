@@ -95,6 +95,17 @@ button, a{
 
 }
 
+@media screen and (max-width: 680px){
+    
+    .nav-two-one{
+        width: 125%;
+        font-size: 14px;
+        margin-right: 10px;
+    
+    }
+    
+}
+
 @media screen and (max-width: 650px){
     
     .nav-two-one{
@@ -112,6 +123,17 @@ button, a{
         width: 115%;
         font-size: 14px;
         margin-left: -35px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 625px){
+    
+    .nav-two-one{
+        width: 120%;
+        font-size: 14px;
+        margin-left: -40px;
     
     }
     
@@ -217,4 +239,15 @@ button, a{
         width: 100px;
         color: #676e82;
      }
+}
+
+@media screen and (max-width: 250px){
+.menubar {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    color: #676e82;
+    margin-right: -25px;
+   
+ }
 }

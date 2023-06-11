@@ -12,8 +12,8 @@ function ContactUs() {
   return (
     <div className='contact-container'>
       <div className="banner">
-        <h6>Support</h6>
-        <h3>How can we help you?</h3>
+        <h6 className='thre'>Support</h6>
+        <h3 className='three'>How can we help you?</h3>
         <p>We Will Open The World Of Knowledge For You! This is the <br />latest online examination system you will ever need!</p>
       </div>
 

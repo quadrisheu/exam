@@ -25,8 +25,8 @@ function Home() {
         <div className="practice"><span className='pra' >Practice</span><img className='ing ingp' src={girl} alt="pics" /><br /><img className='ing2' src={book} alt="book pics" /><span className='pre'>Prepare</span>
           <br /><span className='exc'>Excel</span><span className='bot'><span className='bat'><button>JAMB -<br /> UTME</button><button>WAEC -<br /> SSCE</button><button>WAEC -<br /> GCE</button></span>
             <span className='bit'><button className='common'>COMMON ENTRANCE <br />EXAM</button><button className='neco'>NECO</button></span></span>
-          <p className="welcome">Welcome to the Exams.Africa, we will open the world of knowlegde for you! <br />
-            This is the latest online examination system you will ever need to attain <br />
+          <p className="welcome">Welcome to the Exams.Africa, we will open the world of knowlegde for you! 
+            This is the latest online examination system you will ever need to attain 
             success.</p>
           <div className='bill'><button className='get'>Get Started</button><button>Start Practising</button></div>
           </div>

@@ -13,21 +13,21 @@ function LogIn() {
         <Link to='/' className='lit'> <img src={pic} alt="logo pics" /></Link>
         <p>Don’t have an account? Signup <Link to='/Register' className='log'> here</Link></p>
       </div>
-      <div className="login-main">
+      <div className="login-main mainpass">
         <h1>Login To <br />Continue</h1>
-        <div className="login1">
-          <form action="">
+        <div className="login1 passlog">
+          <form  className='far' action="">
             
 
             <label>Username</label><br />
-            <input type="text" name="username" className='pot1' value="" /><br />
+            <input type="text" name="username" className='pot1 pass1' value="" /><br />
 
 
             
             <div className="name1">
               <div>
                 <label>Password</label><br />
-                <input type="text" name="password" className='pet1' value="" />
+                <input type="text" name="password" className='pet1 pass2' value="" />
                 <span><AiOutlineEye /></span>
                 <div className="forgot"><a href='/'>Forgot Password?</a></div>
               </div>

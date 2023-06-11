@@ -29,7 +29,7 @@ function Navbar(){
                 <Link to='/login'  className='star' onClick={handleClose}><button style={{background: '#ffffff',color: '#1178ff', width: '100px', height: '35px',  border: '2px solid #1178ff'}}>Log In</button> </Link>
             </div>
             </div>
-            <div className='menu-bars'>
+            <div className='menu-bars menubar'>
                 {mobile? <FaRegTimesCircle className='times' onClick={handleMobile}/>
                 :
                 <GoThreeBars className='bars' onClick={handleMobile}/>

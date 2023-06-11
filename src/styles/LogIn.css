@@ -424,6 +424,7 @@ label {
 
 }
 
+
 @media only screen and (max-width: 751px) {
     .login-main h1 {
       padding-left: 70px;
@@ -457,6 +458,40 @@ label {
         }
     
     }
+
+    @media only screen and (max-width: 751px) {
+        .login-main h1 {
+          padding-left: 70px;
+        }
+    
+        .login1 {
+            padding-left: 70px;
+          }
+        
+      
+            .login-head {
+                padding: 20px 70px 10px 0px;
+              
+            }
+        
+        
+            .pot1 {
+                width: 273px;
+            }
+            
+            
+            .forgot {
+                
+                text-align: center;
+            
+            }
+            
+            
+            .login-bottom1 {
+                margin-left: -35px;
+            }
+        
+        }
     
     @media only screen and (max-width: 779px) {
         .login-head {
@@ -514,7 +549,37 @@ label {
           }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 680px) {
+    .mainpass {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mainpass h1 {
+        margin-left: 150px;
+    }
+    
+    }
+
+    @media only screen and (max-width: 411px) {
+        .mainpass {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .mainpass h1 {
+            margin-left: 150px;
+        }
+
+        .mainpass .passlog .far {
+           
+            margin-left: -30px;
+        }
+        
+        }
+
+
+/* @media only screen and (max-width: 550px) {
     .login-head {
         width: 100%;
         display: flex;
@@ -553,7 +618,7 @@ label {
               width: 400px;
               margin-left: -75px;
           }
-}
+} */
 
 @media only screen and (max-width: 425px) {
     .login-head {
@@ -684,7 +749,7 @@ label {
     }
 
 }
-
+/* 
 @media only screen and (max-width: 300px) {
     .login-head p {
     margin-left: 5px;
@@ -846,4 +911,4 @@ label {
     margin-top: 100px;
     margin-left: -35px;
 }
-}
+} */
