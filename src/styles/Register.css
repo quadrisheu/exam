@@ -82,7 +82,7 @@ form .name {
 input {
     border: 1px solid #e0e0e0;
     border-radius: 4px;
-    height: 35px;
+    height: 45px;
     padding-left: 10px;
     width: 415px;
     text-indent: 0px;
@@ -96,7 +96,7 @@ input {
 .p-container input {
     border-top-right-radius: 4px solid #e0e0e0;
     border-bottom-right-radius: 4px solid #e0e0e0;
-    width: 55%;
+    width: 305px;
     margin-left: 0px;
 }
 
@@ -110,36 +110,36 @@ input {
     border-top-left-radius: 4px solid #e0e0e0;
     border-bottom-left-radius: 4px solid #e0e0e0;
     
-    width: 70px;
-    height: 50px;
+    width: 60px;
+    height: 45px;
 }
 
 .pot {
-    width: 53%;
+    width: 52%;
     margin-top: -12px;
     margin-bottom: 5px;
     
 }
 /* use .pot & .put for media querry AiOutlineEye AiOutlineEyeInvisible TbGridDots */
 .put2 {
-    width: 110%;
-    margin-left: 30px;
+    width: 100%;
+    margin-left: 10px;
 }
 
 .put1 {
-    width: 110%;
-    margin-right: 30px;
+    width: 100%;
+    margin-right: 10px;
 }
 
 .pet {
-    width: 110%;
+    width: 100%;
     position: relative;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .pat {
-    width: 110%;
-    margin-left: 30px;
+    width: 100%;
+    margin-left: 10px;
     position: relative;
 }
 
@@ -174,10 +174,23 @@ label {
 
 .p-container {
     width: 81%;
-    height: 35px;
-    margin-bottom: 40px;
-
+    height: 75px;
+    margin: 20px 0px 1px 0px;
 }
+
+.poty {
+    height: 75px;
+    margin: 15px 0px 1px 0px;
+}
+
+.try {
+    margin-top: 20px;
+}
+
+.lab1, .lab  {
+    margin-left: 10px;
+}
+
 
 .login-button {
     background-color: #1178FF;
@@ -192,8 +205,8 @@ label {
 }
 
 .button {
-    width: 53%;
-    height: 50PX;
+    width: 367px;
+    height: 45px;
     background-color: #1178FF;
     border: 1px solid #1178FF;
     border-radius: 4px;
@@ -250,7 +263,7 @@ label {
 @media only screen and (max-width: 1030px) {
     .put2 {
     width: 81%;
-    margin-left: 1px;
+    margin-left: -6px;
 }
 
 .put1 {
@@ -266,9 +279,19 @@ label {
 
 .pat {
     width: 81%;
-    margin-left: 1px;
+    margin-left: -6px;
     position: relative;
 }
+
+.lab1, .lab  {
+    margin-left: -10px;
+}
+
+.button {
+    width: 297px;
+   
+}
+
 
 .name .spin {
    
@@ -316,8 +339,8 @@ label {
 
 
     .put2 {
-    width: 75%;
-    margin-left: 0px;
+    width: 87%;
+    margin-left: -10px;
 }
 
 .put1 {
@@ -332,9 +355,14 @@ label {
 }
 
 .pat {
-    width: 75%;
-    margin-left: 1px;
+    width: 87%;
+    margin-left: -10px;
     position: relative;
+}
+
+.p-container .phone {
+     width: 233px; 
+    
 }
 
 .name .spin {
@@ -414,6 +442,15 @@ label {
     position: relative;
 }
 
+.p-container .phone {
+    width: 220px;
+    
+}
+
+.button {
+    width: 281px;
+   
+}
 
 .name .lab {
     padding-left: 0px;
@@ -440,7 +477,7 @@ form label {
 
 
     .put2 {
-    width: 75%;
+    width: 77%;
     margin-left: -25px;
 }
 
@@ -456,18 +493,27 @@ form label {
 }
 
 .pat {
-    width: 75%;
+    width: 77%;
     margin-left: -25px;
     position: relative;
 }
 
+.p-container .phone {
+    width: 195px;
+    
+}
+
+.button {
+    width: 261px;
+   
+}
 
 .name .lab {
-   margin-left: -14px;
+   margin-left: -25px;
 }
 
 .name .lab1 {
-    margin-left: -19px;
+    margin-left: -25px;
     
 }
 
@@ -511,9 +557,11 @@ form label {
     }
 
 .p-container input {
-    
     width: 46%;
-    
+}
+
+.login-bottom {
+    margin-left: -105px;
 }
 
 }
@@ -565,22 +613,12 @@ form label {
 }
 
 input {
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    height: 35px;
-    padding-left: 10px;
-    width: 53%;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    padding: 1px 2px;
-    margin: 10px 0px 20px 0px;
+    height: 45px;
 }
 
-.p-container input {
+.p-container .phone {
     
-    width: 65%;
+    width: 69%;
     margin-left: 0px;
 }
 
@@ -687,27 +725,29 @@ label {
 }
 
 @media only screen and (max-width: 685px) {
-    .p-container input {
+     .login-main h1{
+        margin-left: 15px;
+    }
+    .p-container .phone {
     
-        width: 63%;
+        width: 64%;
         margin-left: 0px;
     }
-   
-}
 
-@media only screen and (max-width: 685px) {
-    .p-container input {
-    
-        width: 61%;
-        margin-left: 0px;
+    .login-bottom {
+        margin-left: -45px;
     }
    
 }
 
 @media only screen and (max-width: 617px) {
-    .p-container input {
+    .login-main h1{
+        margin-left: 25px;
+    }
+
+    .p-container .phone {
     
-        width: 60%;
+        width: 62%;
         margin-left: 0px;
     }
 
@@ -728,7 +768,11 @@ label {
 }
 
 @media only screen and (max-width: 570px) {
-    .p-container input {
+
+    .login-main h1{
+        margin-left: 35px;
+    }
+    .p-container .phone {
     
         width: 58%;
         margin-left: 0px;
@@ -800,22 +844,124 @@ label {
 }
 
 @media only screen and (max-width: 500px) {
-    .p-container input {
-    
-        width: 55%;
-        margin-left: 0px;
+    .login-main h1{
+        margin-left: 45px;
+    }
+    .pot {
+        
+        width: 80%;
+       
     }
 
-    .p-container span select {
-         width: 60px;
+    .put2 {
+        width: 80%;
+       
     }
+    
+    .put1 {
+        width: 80%;
+    }
+    
+    .pet {
+        width: 80%;
+        position: relative;
+       
+    }
+    
+    .pat {
+        width: 80%;
+       
+        position: relative;
+    }
+    
+    .lab1, .lab  {
+        margin-left: -10px;
+    }
+    
+    .p-container span select {
+         width: 55px;
+    }
+
+    .p-container .phone {
+        width: 105px;
+   }
+
+   .button {
+       font-size: 13px;
+       width: 160px;
+   
+}
 
     .login-bottom {
     
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
+        width: 120%;
+        margin-left: -45px;
+    }
+
+    .radio p {
+        font-size: 4px;
+     }
+     
+   
+}
+
+@media only screen and (max-width: 476px) {
+    .login-main h1{
+        margin-left: 55px;
+    }
+    .pot {
+        
+        width: 80%;
+       
+    }
+
+    .put2 {
+        width: 80%;
+       
+    }
+    
+    .put1 {
+        width: 80%;
+    }
+    
+    .pet {
+        width: 80%;
+        position: relative;
+       
+    }
+    
+    .pat {
+        width: 80%;
+       
+        position: relative;
+    }
+    
+    .lab1, .lab  {
+        margin-left: -10px;
+    }
+    
+    .p-container span select {
+         width: 45px;
+         font-size: 10px;
+        
+    }
+
+    .p-container .phone {
+        width: 105px;
+        margin-top: 5px;
+       
+   }
+
+
+   .button {
+       font-size: 13px;
+       width: 160px;
+   
+}
+
+    .login-bottom {
+    
+        width: 120%;
         margin-left: -35px;
     }
 
@@ -826,6 +972,30 @@ label {
    
 }
 
+@media only screen and (max-width: 468px) {
+    .p-container .phone {
+        width: 100px;
+        margin-top: 5px;
+       
+   }
+
+   .button {
+    width: 140px;
+
+}
+
+}
+
+@media only screen and (max-width: 455px) {
+    .p-container .phone {
+        width: 90px;
+        margin-top: 5px;
+   }
+
+  
+
+}
+
 
 @media only screen and (max-width: 430px) {
     .login-head {
@@ -834,6 +1004,11 @@ label {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .login-head p {
+      margin-left: 90px;
+      
     }
     
   
@@ -863,31 +1038,27 @@ label {
           
         }
     
-        .p-container input {
+        .p-container .phone {
     
-            width: 58%;
+            width: 78%;
             margin-left: 0px;
         }
 
-
-  
-
-}
-
-@media only screen and (max-width: 425px) {
-
+        .button {
+            font-size: 13px;
+            width: 210px;
         
+     }
+
+        .login-bottom {
     
-        .p-container input {
-    
-            width: 54%;
-            margin-left: 0px;
+            width: 110%;
+            margin-left: -45px;
         }
-
-
   
 
 }
+
 
 @media only screen and (max-width: 396px) {
 
@@ -923,9 +1094,9 @@ label {
         
     }
     
-    .p-container input {
+    .p-container .phone {
         
-        width: 68%;
+        width: 75%;
         
     }
     
@@ -941,13 +1112,13 @@ label {
     .login-bottom {
     
         width: 120%;
-        margin-left: -35px;
+        margin-left: -45px;
     }
     
 
 }
 
-@media only screen and (max-width: 381px) {
+@media only screen and (max-width: 388px) {
 
 
     
@@ -962,9 +1133,9 @@ label {
         
     }
 
-    .p-container input {
+    .p-container .phone {
         
-        width: 53%;
+        width: 61%;
         
     }
 
@@ -978,6 +1149,17 @@ label {
 
 
 @media only screen and (max-width: 350px) {
+    .login-head p {
+        width: 80%;
+        margin-right: 40px;
+    }
+
+    .login-main h1 {
+        width: 67%;
+        margin-left: 30px;
+     }
+     
+ 
 
     .pot {
         width: 83%;
@@ -1028,105 +1210,108 @@ label {
 
 }
 
-@media only screen and (max-width: 334px) {
-
-    .pot {
-        width: 86%;
-        
+@media only screen and (max-width: 338px) {
+    .login-head p {
+        width: 80%;
+        margin-right: 40px;
     }
 
-    .put2 {
-        width: 86%;
+    .p-container .phone {
+        
+        width: 58%;
         
     }
     
-    .put1 {
-        width: 86%;
-        
-    }
-    
-    .pet {
-        width: 86%;
-       
-    }
-    
-    .pat {
-        width: 86%;
-        
-    }
-
-    .p-container span select {
-        width: 52px;
-        
-    }
-    
-    .p-container {
-        
-        width: 100%;
-        
-    }
-
-    .p-container input {
-        
-        width: 53%;
-        
-    }
-
-    .radio p {
-        font-size: 3px;
+    .login-main h1 {
+       margin-left: 30px;
     }
     
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 322px) {
 
-    .pot {
-        width: 97%;
-        
+    .p-container .phone {
+        width: 115px;
+   }
+
+   .button {
+       font-size: 13px;
+       width: 170px;
+}
+
+.login-bottom {
+    
+    width: 115%;
+    margin-left: -25px;
+}
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    .p-container .phone {
+        width: 100px;
+   }
+
+   .button {
+       font-size: 13px;
+       width: 150px;
+   
+}
+.login-bottom {
+    
+    width: 115%;
+    margin-left: -35px;
+}
+}
+
+@media only screen and (max-width: 285px) {
+
+    .p-container .phone {
+        width: 85px;
+   }
+
+   .button {
+       font-size: 13px;
+       width: 130px;
+   
+}
+.login-bottom {
+    
+    width: 115%;
+    margin-left: -25px;
+}
+}
+
+@media only screen and (max-width: 263px) {
+    .login-head p {
+        width: 70%;
     }
 
-    .put2 {
-        width: 97%;
-        
-    }
-    
-    .put1 {
-        width: 97%;
-        
-    }
-    
-    .pet {
-        width: 97%;
+    .login-main h1 {
+        width: 57%;
+        margin-left: 0px;
+     }
+
+     form {
        
-    }
+        margin-left: -10px;
+     }
+
+    .p-container .phone {
+        width: 97px;
+   }
+
+   .button {
+       font-size: 13px;
+       width: 110px;
+   
+}
+.login-bottom {
     
-    .pat {
-        width: 97%;
-        
-    }
-
-    .p-container span select {
-        width: 52px;
-        
-    }
-    
-    .p-container {
-        
-        width: 100%;
-        
-    }
-
-    .p-container input {
-        
-        width: 60%;
-        
-    }
-
-    .radio p {
-        font-size: 3px;
-    }
-    
-
+    width: 115%;
+    margin-left: -20px;
+}
 }
 

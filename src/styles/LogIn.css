@@ -1,914 +1,657 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500&display=swap');
-
-@font-face {
-    font-family: 'Clash Display Variable';
-    src: url("./ClashDisplay-Semibold.ttf");
-}
-
-@font-face {
-    font-family: 'Clash Display Variable';
-    src: url("./ClashDisplay-Semibold.otf");
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
-.login-container {
+.signin-container {
     width: 100%;
     min-height: 100vh;
+    padding: 20px 40px;
 }
 
-.login-head {
+.loginH {
     width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    padding: 20px 70px 10px 30px;
-    font-family: 'Mulish', sans-serif;
-    
-
+    align-items: center;
 }
 
-.login-head img {
-    margin-left: 0px;
-    
-}
-
-.login-head p {
-    font-family: 'mulish';
-    margin-right: 0px;
-    text-decoration: none;
-    font-size: 14px;
-}
-
-.login-head .log {
-    color: #1178FF;
-    text-decoration: none;
-}
-
-.login-main {
-    width: 100%;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
-
-.login-main h1 {
+.loginH .let {
     width: 20%;
+    margin-left: -20px;
+    
+}
+
+.loginH p {
+    width: 80%;
+    margin-right: 30px;
+    text-align: end;
+}
+
+.loginH p .here {
+    color: #1178FF;
+}
+
+.loginM {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.loginM h1 {
+    width: 40%;
+    margin-top: -400px;
     font-size: 40px;
     font-weight: 800;
     font-family: 'Mulish', sans-serif;
     color: #00070f;
-    padding-left: 30px;
 }
 
-.login1 {
-    
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    margin-top: 120px;
+.loginF {
+    width: 60%;  
+    margin-top: 150px;
+    margin-right: 150px;
     
 }
 
-form {
-    width: 70%;
-}
-
-form .name1 {
-    display: flex;
-    flex-direction: row;
-}
-
-input {
-    border: 1px solid #E0E0E0;
+.far input { 
+    width: 315px;
+    height: 45px;
+    border: 1px solid #e0e0e0;
     border-radius: 4px;
-    height: 50px;
+   
     padding-left: 10px;
-    width: 414px;
+    
     text-indent: 0px;
     text-shadow: none;
     display: inline-block;
     text-align: start;
     padding: 1px 2px;
-    margin: 5px 0px 20px 0px;
-}
-
-
-.pot1 {
-    
-    margin-top: -10px;
-    
-}
-
-.pet1 {
    
-    position: relative;
-    margin-top: 5px;
-    
 }
 
-
-
-.name1 span {
-    
-    position: absolute;
-    top: 255px;
-    left: 1047px;
-
-}
-
-
-label {
+.userL {
     color: #00070f;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 600;
     font-size: 16px;
-    
+    margin-bottom: -15px;
 }
 
+.passL {
+    color: #00070f;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
 
-.login-button1 {
+.p-box {
    
-    height: 50px;
-    width: 100%;
-}
-
-.button1 {
-    width: 335px;
-    height: 50px;
-    background: #1178FF;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 800;
-    cursor: pointer;
-    padding: 0.65rem;
-    text-align: center;
-    margin-top: 33px;
-    font-family: 'Mulish';
-}
-
-.forgot {
-    
-    margin-top: -15px;
-    text-align: end;
-    
-    
-    
-}
-
-
-.forgot a {
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    color: #1178FF;
-    margin-right: -167px;
-
-}
-
-.login-bottom1 {
-    
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-left: -105px;
-}
-
-@media only screen and (max-width: 1295px) {
-
-    
-    .pot1 {
-    width: 48%;
-    
-}
-
-    .pet1 {
-    width: 200%;
     position: relative;
-}
-.name1 span {
-    position: absolute;
-    top: 391px;
-    left: 705px;
-}
-}
-
-@media only screen and (max-width: 1265px) {
-    
-    .pot1 {
-    width: 53%;
-    
-}
-
-    .pet1 {
-    width: 200%;
-    position: relative;
-}
-.name1 span {
-    display: none;
-}
-.login-bottom1 {
-    
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-left: -105px;
-}
-
-}
-
-
-@media only screen and (max-width: 1130px) {
- .pot1 {
-    width: 53%;
-    
-}
-    .pet1 {
-    width: 250%;
-    position: relative;
-}
-
-}
-
-
-@media only screen and (max-width: 1131px) {
-    .pet1 {
-    width: 170%;
-    
-    
-}
-
- .pot1 {
-    width: 48%;
-    
-}
-
-.forgot {
-    width: 167%;
-    margin-top: -15px;
-    text-align: end;
-    
-}
-
-}
-
-@media only screen and (max-width: 1035px) {
-
-    .login-main h1 {
-        padding-left: 70px;
-      }
-  
-      .login1 {
-          padding-left: 70px;
-        }
-      
-    .pet1 {
-    width: 275px;
-}
-
-.pot1 {
-    width: 275px;
-}
-
-.button1 {
-    width: 280px;
-    height: 50px;
-    background: #1178FF;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 800;
-    cursor: pointer;
-    padding: 0.65rem;
-    text-align: center;
-    margin-top: 33px;
-    font-family: 'Mulish';
-}
-.forgot {
-    
-    text-align: center;
-
-}
-
-.forgot a {
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    color: #1178FF;
-    margin-right: 11px;
-
-}
-
-.login-bottom1 {
-    margin-left: -85px;
-}
-
-}
-
-@media only screen and (max-width: 1010px) {
-.pot1 {
-    width: 278px;
-}
-
-.button1 {
-    width: 280px;
-    height: 50px;
-    background: #1178FF;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 800;
-    cursor: pointer;
-    padding: 0.65rem;
-    text-align: center;
-    margin-top: 33px;
-    font-family: 'Mulish';
-}
-.forgot {
-    
-    text-align: center;
-
-}
-
-.forgot a {
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    color: #1178FF;
-    margin-right: 11px;
-
-}
-
-.login-bottom1 {
-    margin-left: -65px;
-}
-
-}
-
-@media only screen and (max-width: 945px) {
-    .pot1 {
-    width: 278px;
-}
-
-.button1 {
-    width: 280px;
-    height: 50px;
-    background: #1178FF;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 800;
-    cursor: pointer;
-    padding: 0.65rem;
-    text-align: center;
-    margin-top: 33px;
-    font-family: 'Mulish';
-}
-.forgot {
-    
-    text-align: center;
-
-}
-
-.forgot a {
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 12px;
-    color: #1178FF;
-    margin-right: 11px;
-}
-
-.login-bottom1 {
-    margin-left: -35px;
-}
-
-}
-
-@media only screen and (max-width: 865px) {
-    .login-head {
-        padding: 20px 70px 10px 0px;
-      
     }
 
+.p-box span {
+position: absolute;
+top: 36px;
+left: 290px;
 
-    .pot1 {
-        width: 273px;
+}
+
+.forgot {
+    width: 315px;
+    text-align: right;
+    
+    margin-top: -15px;
+
+}
+
+.forgot a {
+   text-decoration: underline;
+   font-family: 'Mulish';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 12px;
+   color:  #1178FF;;
+}
+
+.buttonB {
+    width: 315px;
+    height: 45px;
+    background-color: #1178FF;
+    border-radius: 4px;
+}
+
+.p-box span {
+position: absolute;
+top: 36px;
+right: 110px;
+}
+
+.forgot {
+    text-align: end;
+    margin-top: -15px;
+
+}
+
+.login-foot {
+    width: 415px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: -40px;
+}
+
+@media only screen and (max-width: 860px) {
+    .loginF {
+        width: 60%;  
+        margin-top: 150px;
+        margin-right: 50px;
     }
     
+}
+
+@media only screen and (max-width: 781px) {
+    .loginF {
+        width: 60%;  
+        margin-top: 150px;
+        margin-right: 50px;
+    }
     
-    .forgot {
+}
+
+@media only screen and (max-width: 781px) {
+    .loginF {
+        width: 60%;  
+        margin-top: 150px;
+        margin-right: 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 700px) {
+    .loginF {
+        width: 60%;  
+        margin-top: 150px;
+        margin-right: 0px;
+    }
+    
+}
+
+@media only screen and (max-width: 677px) {
+    
+    .loginM {
+        flex-direction: column;
+    }
+
+    .loginM h1 {
+        width: 40%;
+        margin-top: 30px;
+       
+    }
+    
+    .loginF {
+        width: 60%;  
+        margin-top: 50px;
+        margin-right: 0px;
         
+    }
+    
+}
+
+@media only screen and (max-width: 563px) {
+    
+    .loginH p {
+        width: 80%;
+        margin-right: 5px;
+        text-align: end;
+    }
+
+    .loginM h1 {
+        width: 60%;
+        margin-top: 30px;
+       
+    }
+    
+    .loginF {
+        width: 60%;  
+        margin-top: 50px;
+        margin-right: 0px;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 516px) {
+    .loginH {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .loginH .let {
+        width: 80%;
+        margin-left: 20px;
+        text-align: left;
+    }
+    
+    .loginH p {
+        width: 80%;
+        margin-right: 1px;
+        text-align: left;
+    }
+
+
+    .loginM h1 {
+        width: 60%;
+        margin-top: 30px;
+        text-align: left;
+       
+    }
+    
+    .loginF {
+        width: 100%;  
+        margin-top: 50px;
+    }
+
+    .login-foot {
+        width: 395px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: -40px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 433px) {
+    .loginH {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .loginH .let {
+        width: 80%;
+        margin-left: 50px;
+        text-align: left;
+    }
+    
+    .loginH p {
+        width: 80%;
+        /* margin-right: 1px; */
+        margin-left: 50px;
+        text-align: left;
+    }
+
+
+    .loginM h1 {
+       
+        width: 90%;
+        margin-top: 30px;
         text-align: center;
-    
+       
     }
     
-    
-    .login-bottom1 {
-        margin-left: -25px;
+    .loginF {
+        width: 80%;  
+        margin-top: 50px;
+        margin-right: 70px;
     }
 
-}
-
-
-@media only screen and (max-width: 751px) {
-    .login-main h1 {
-      padding-left: 70px;
+    .far input { 
+        width: 250px;
+        height: 45px;
     }
 
-    .login1 {
-        padding-left: 70px;
-      }
+    .p-box span {
+        position: absolute;
+        top: 36px;
+        left: 230px;
     
-  
-        .login-head {
-            padding: 20px 70px 10px 0px;
-          
         }
-    
-    
-        .pot1 {
-            width: 273px;
-        }
-        
         
         .forgot {
-            
-            text-align: center;
+            width: 250px;
+            text-align: right;
+            margin-top: -15px;
         
         }
-        
-        
-        .login-bottom1 {
-            margin-left: -35px;
-        }
+
     
+    .buttonB {
+        width: 250px;
+        height: 45px;
+        background-color: #1178FF;
+        border-radius: 4px;
     }
-
-    @media only screen and (max-width: 751px) {
-        .login-main h1 {
-          padding-left: 70px;
-        }
     
-        .login1 {
-            padding-left: 70px;
-          }
-        
-      
-            .login-head {
-                padding: 20px 70px 10px 0px;
-              
-            }
-        
-        
-            .pot1 {
-                width: 273px;
-            }
-            
-            
-            .forgot {
-                
-                text-align: center;
-            
-            }
-            
-            
-            .login-bottom1 {
-                margin-left: -35px;
-            }
-        
-        }
-    
-    @media only screen and (max-width: 779px) {
-        .login-head {
-            width: 100%; 
-        }
-        .login-main h1 {
-          padding-left: 70px;
-        }
-        
-
-        .login1 {
-            padding-left: 70px;
-          }
-        
-      
-            .login-head {
-                padding: 20px 70px 10px 0px;
-              
-            }
-        
-        
-            .pot1 {
-                width: 273px;
-            }
-            
-            
-            .forgot {
-                
-                text-align: center;
-            
-            }
-            
-            
-            .login-bottom1 {
-                width: 350px;
-                margin-left: -35px;
-            }
-        
-        }
-        
-    
-
-
-@media only screen and (max-width: 680px) {
-    .login-main h1 {
-        
-        padding-left: 70px;
-      }
-  
+    .login-foot {
+        width: 320px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: -30px;
+    }
     
     
-          .login-bottom1 {
-              width: 400px;
-              margin-left: -75px;
-          }
 }
 
-@media only screen and (max-width: 680px) {
-    .mainpass {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .mainpass h1 {
-        margin-left: 150px;
-    }
+@media only screen and (max-width: 380px) {
     
-    }
 
-    @media only screen and (max-width: 411px) {
-        .mainpass {
-            display: flex;
-            flex-direction: column;
-        }
-    
-        .mainpass h1 {
-            margin-left: 150px;
-        }
-
-        .mainpass .passlog .far {
-           
-            margin-left: -30px;
-        }
-        
-        }
-
-
-/* @media only screen and (max-width: 550px) {
-    .login-head {
-        width: 100%;
+   
+    .login-foot {
+        width: 290px;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: -30px;
     }
     
-    .login-main {
-        width: 100%;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-
-        .login-main h1 {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding-left: 0px;
-            margin-left: -20px;
-            margin-top: 20px;
-        }
     
-        form {
-            width: 100%;
-        }
-    
-    
-    
-    
-    
-          .login-bottom1 {
-              width: 400px;
-              margin-left: -75px;
-          }
-} */
-
-@media only screen and (max-width: 425px) {
-    .login-head {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    
-  
-    .login-main {
-        width: 100%;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        }
-
-        .login-main h1 {
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            padding-left: 0px;
-            margin-left: -20px;
-            margin-top: 20px;
-        }
-    
-        form {
-            width: 100%;
-           margin-right: 50px; 
-           align-content: center;
-        }
-    
-    
-
-
-  
-.login-bottom1 {
-    
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-left: -5px;
 }
 
-}
-
-@media only screen and (max-width: 377px) {
-    
-
-    .login-head p {
-        margin-left: 15px;
-        text-decoration: none;
-    }
-        
-    .login-main h1 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        font-size: 17px;
-        font-weight: 900;
-        margin-left: 5px;
-        margin-bottom: 20px;
-        
-    }
-    .login-head {
+@media only screen and (max-width: 350px) {
+    .loginH {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        margin-left: 30px;
+    }
+
+    .loginH .let {
+        width: 80%;
+        margin-left: 20px;
+        text-align: left;
     }
     
-    .login-main {
+    .loginH p {
+        width: 100%;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+
+    .loginM h1 {
+       
+        width: 90%;
+        margin-top: 30px;
+        text-align: center;
+       
+    }
+    
+    .loginF {
+        width: 80%;  
+        margin-top: 50px;
+        margin-right: 90px;
+    }
+
+    .far input { 
+        width: 200px;
+        height: 45px;
+    }
+
+    .p-box span {
+        position: absolute;
+        top: 36px;
+        left: 175px;
+    
+        }
+        
+        .forgot {
+            width: 200px;
+            text-align: right;
+            margin-top: -15px;
+        
+        }
+
+    
+    .buttonB {
+        width: 200px;
+        height: 45px;
+        background-color: #1178FF;
+        border-radius: 4px;
+    }
+    
+    .login-foot {
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: -20px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 303px) {
+    .loginH {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .loginH .let {
+        width: 80%;
+        margin-left: 0px;
+        text-align: left;
+    }
+    
+    .loginH p {
+        width: 110%;
+        margin-left: 10px;
+        text-align: left;
+        font-size: 14px;
+    }
+
+
+    .loginM h1 {
+       
         width: 100%;
         margin-top: 30px;
+        text-align: center;
+       
+    }
+    
+    .loginF {
+        width: 80%;  
+        margin-top: 50px;
+        margin-right: 90px;
+    }
+
+    .far input { 
+        width: 200px;
+        height: 45px;
+    }
+
+    .p-box span {
+        position: absolute;
+        top: 36px;
+        left: 175px;
+    
+        }
+        
+        .forgot {
+            width: 200px;
+            text-align: right;
+            margin-top: -15px;
+        
+        }
+
+    
+    .buttonB {
+        width: 200px;
+        height: 45px;
+        background-color: #1178FF;
+        border-radius: 4px;
+    }
+    
+    .login-foot {
+        width: 225px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 284px) {
+    .loginH {
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        align-items: center;
     }
-    .button1 {
-        width: 88%;
-        background-color: #1178FF;
-        border: 1px solid #1178FF;
-        border-radius: 4px;
-        color: #fff;
-        font-size: 14px;
-        font-weight: 600;
-        cursor: pointer;
-        padding: 0.55rem;
+
+    .loginH .let {
+        width: 80%;
+        margin-left: -20px;
+        text-align: left;
+    }
+    
+    .loginH p {
+        width: 110%;
+        margin-left: 15px;
+        text-align: left;
+        font-size: 12px;
+    }
+
+
+    .loginM h1 {
+       
+        width: 100%;
+        margin-top: 30px;
         text-align: center;
-        margin-top: 53px;
-    }
-    .pot1 {
-        width: 90%;
-        
-    }
-      .pet1 {
-        width: 85%;
-        
+        font-size: 30px;
+       
     }
     
-    .forgot {
-        width: 100%;
-        margin-top: -15px;
-        text-align: end;
+    .loginF {
+        width: 80%;  
+        margin-top: 50px;
+        margin-right: 90px;
+    }
+
+    .far input { 
+        width: 170px;
+        height: 45px;
+    }
+
+    .p-box span {
+        position: absolute;
+        top: 36px;
+        left: 145px;
+    
+        }
         
+        .forgot {
+            width: 167px;
+            text-align: right;
+            margin-top: -15px;
+        
+        }
+
+    
+    .buttonB {
+        width: 170px;
+        height: 45px;
+        background-color: #1178FF;
+        border-radius: 4px;
     }
     
-    .forgot a {
-        width: 100%;
-        font-size: 8px;
-        margin-right: 25px;
-        
-    }
-    
-    .login-bottom1 {
-        
-        width: 100%;
+    .login-foot {
+        width: 195px;
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
-        margin-left: -5px;
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 284px) {
+    .loginH {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
 
-}
-/* 
-@media only screen and (max-width: 300px) {
-    .login-head p {
-    margin-left: 5px;
-    text-decoration: none;
-}
+    .loginH .let {
+        width: 50%;
+        margin-right: 80px;
+        text-align: left;
+    }
     
-.login-main h1 {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    font-size: 17px;
-    font-weight: 900;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    
-}
-.login-head {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 30px;
-}
+    .loginH p {
+        width: 110%;
+        margin-left: 15px;
+        text-align: left;
+        font-size: 12px;
+    }
 
-.login-main {
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.button1 {
-    width: 88%;
-    background-color: #1178FF;
-    border: 1px solid #1178FF;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 14px;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 0.55rem;
-    text-align: center;
-    margin-top: 53px;
-}
-.pot1 {
-    width: 90%;
-    
-}
-  .pet1 {
-    width: 85%;
-    
-}
 
-.forgot {
-    width: 100%;
-    margin-top: -15px;
-    text-align: end;
+    .loginM h1 {
+       
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+        font-size: 30px;
+       
+    }
     
-}
+    .loginF {
+        width: 80%;  
+        margin-top: 50px;
+        margin-right: 30px;
+    }
 
-.forgot a {
-    width: 100%;
-    font-size: 8px;
-    margin-right: 15px;
-    
-}
+    .far input { 
+        width: 150px;
+        height: 45px;
+    }
 
-.login-bottom1 {
+    .p-box span {
+        position: absolute;
+        top: 36px;
+        left: 130px;
     
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-left: -15px;
-}
-}
+        }
+        
+        .forgot {
+            width: 149px;
+            text-align: right;
+            margin-top: -15px;
+        
+        }
 
-@media only screen and (max-width: 203px) {
-    .login-head p {
-    margin-left: 5px;
-    text-decoration: none;
-    font-size: 11px;
-}
     
-.login-main h1 {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    font-size: 17px;
-    font-weight: 900;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    .buttonB {
+        width: 147px;
+        height: 45px;
+        background-color: #1178FF;
+        border-radius: 4px;
+    }
     
-}
-.login-head {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 30px;
-}
-
-.login-main {
-    width: 100%;
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.button1 {
-    width: 100%;
-    height: 30px;
-    background-color: #1178FF;
-    border: 1px solid #1178FF;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 11px;
-    font-weight: 600;
-    cursor: pointer;
-    padding: 0;
-    text-align: center;
-    margin-top: 53px;
-}
-.pot1 {
-    width: 100%;
-    height: 30px;
+    .login-foot {
+        width: 195px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+    
     
 }
-  .pet1 {
-    width: 100%;
-    height: 30px;
-    
-}
-
-.forgot {
-    width: 100%;
-    margin-top: -15px;
-    text-align: end;
-    
-}
-
-.forgot a {
-    width: 100%;
-    font-size: 8px;
-    margin-right: 5px;
-    
-}
-
-label {
-    font-size: 10px;
-}
-.login-bottom1 {
-    
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
-    margin-left: -35px;
-}
-} */

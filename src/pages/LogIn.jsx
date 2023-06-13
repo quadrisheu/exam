@@ -8,40 +8,40 @@ import regr from '../img/regr.png'
 
 function LogIn() {
   return (
-    <div className='login-container'>
-      <div className="login-head">
-        <Link to='/' className='lit'> <img src={pic} alt="logo pics" /></Link>
-        <p>Don’t have an account? Signup <Link to='/Register' className='log'> here</Link></p>
+    <div className='signin-container'>
+      <div className="loginH">
+        <Link to='/' className='let'> <img src={pic} alt="logo pics" /></Link>
+        <p>Don’t have an account? Signup <Link to='/Register' className='here'> here</Link></p>
       </div>
-      <div className="login-main mainpass">
+      <div className="loginM">
         <h1>Login To <br />Continue</h1>
-        <div className="login1 passlog">
+        <div className="loginF">
           <form  className='far' action="">
             
 
-            <label>Username</label><br />
-            <input type="text" name="username" className='pot1 pass1' value="" /><br />
+            <label className='userL'>Username</label><br />
+            <input type="text" name="username" className='user' value="" /><br />
 
 
             
-            <div className="name1">
+            <div className="p-box">
               <div>
-                <label>Password</label><br />
-                <input type="text" name="password" className='pet1 pass2' value="" />
-                <span><AiOutlineEye /></span>
+                <label className='passL'>Password</label><br />
+                <input type="password" name="password" className='pass' value="" /><br />
+                <span><AiOutlineEye className='eye' /></span>
                 <div className="forgot"><a href='/'>Forgot Password?</a></div>
               </div>
               
             </div>
 
 
-            <div className="login-button1">
-              <button className='button1'>Login Now</button>
+            <div className="loginB">
+              <button className='buttonB'>Login Now</button>
             </div>
 
 
 
-            <div className="login-bottom1">
+            <div className="login-foot">
               <span><img src={regl} alt="pics" /></span>
               <span><img src={regr} alt="pics" /></span>
             </div>
