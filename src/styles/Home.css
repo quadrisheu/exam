@@ -1312,12 +1312,12 @@
 
 @media only screen and (max-width: 500px) {
     .practice .bot {
-        width: 230px;
+        width: 217px;
         height: 130px;
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 245px;
+        top: 275px;
         left: 227px;
         }
 
@@ -1407,7 +1407,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 200px;
+            top: 230px;
             left: 203px;
             }
     
@@ -1540,7 +1540,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 210px;
+            top: 245px;
             left: 177px;
             }
     
@@ -1691,7 +1691,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 205px;
+            top: 230px;
             left: 170px;
             }
     
@@ -1840,7 +1840,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 143px;
+            top: 170px;
             left: 133px;
             }
     
@@ -2034,7 +2034,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 95px;
+            top: 120px;
             left: 107px;
             }
     
@@ -2164,7 +2164,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 117px;
+            top: 147px;
             left: 107px;
         
             }
@@ -2270,7 +2270,7 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 120px;
+            top: 150px;
             left: 110px;
             }
     
@@ -2343,7 +2343,7 @@
             }
     }
     
-    @media only screen and (max-width: 251px) {
+    @media only screen and (max-width: 263px) {
         .top1 {
             margin-top: -75px;
             margin-bottom: -125px;
@@ -2422,8 +2422,9 @@
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 147px;
+            top: 177px;
             left: 105px;
+           
             }
     
             .welcome {
@@ -2458,7 +2459,7 @@
             }
 }
 
-@media only screen and (max-width: 232px) {
+@media only screen and (max-width: 233px) {
     .top1 {
         margin-top: -96px;
         margin-bottom: -129px;
@@ -2532,7 +2533,7 @@
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 130px;
+        top: 160px;
         left: 91px;
        
         }
