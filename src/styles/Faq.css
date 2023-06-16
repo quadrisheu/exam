@@ -50,7 +50,7 @@
     align-items: center;
 }
 .faq-two-parent{
-    width: 90%;
+    width: 100%;
 }
 .faq-two{
     width: 100%;
@@ -60,6 +60,7 @@
 .faq-two-sub{
     width: 48%;
     height: 120px;
+    margin-bottom: 20px;
 }
 .f-one{
     display: flex;
@@ -73,11 +74,13 @@
 .f-one-sub{
     display: flex;
     align-items: center;
-    height: 80px;
+    height: 100px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     visibility: visible;
+    background-color:  #f7f7f76b;
 }
 
 
@@ -123,11 +126,13 @@
 .next2 {
    
     
-    width: 40%;
-    /* margin-right: 30px; */
+    width: 40%; 
+    margin-left: 77px;
 }
 
+
 .next .para {
+    width: 441px;
     font-size: 19px;
     margin-top: 30px;
     margin-bottom: 20px;

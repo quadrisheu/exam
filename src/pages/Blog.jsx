@@ -29,7 +29,7 @@ function Blog() {
           </button>
           </div>
           
-          <div className="next next2">
+          <div className="next next2 next3">
           <img className='buk' src={book} alt="book pics" />
            <h3>Examination Preparations</h3>
            <p className='para'>Start your revision early. There is no substitute for 
@@ -59,7 +59,7 @@ function Blog() {
           </button>
           </div>
           
-          <div className="next next2">
+          <div className="next next2 next3">
            <img className='buk' src={book} alt="book pics" />
            <h3>Examination Preparations</h3>
            <p className='para'>Start your revision early. There is no substitute for 
@@ -89,7 +89,7 @@ function Blog() {
           </button>
           </div>
           
-          <div className="next next2">
+          <div className="next next2 next3">
           <img className='buk' src={book} alt="book pics" />
            <h3>Examination Preparations</h3>
            <p className='para'>Start your revision early. There is no substitute for 

@@ -63,13 +63,17 @@
 }
 
 .next2 {
-    
     width: 45%;
-    
+    margin-left: 77px;
+}
+
+.next3 {
+    margin-left: 56px;
     
 }
 
 .next .para {
+    width: 441px;
     font-size: 19px;
     margin-top: 30px;
     margin-bottom: 20px;
