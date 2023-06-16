@@ -21,7 +21,7 @@ function ContactUs() {
         <div className="us1">
           <h5 className='ox'>Contact Us</h5>
           <p className='ox2'>We Will Open The World Of Knowledge For You! This
-            is the latest online <br />examination system you will ever 
+            is the latest online examination system you will ever 
             need!</p>
           <div className="us1a">
             <div className="verti"></div>

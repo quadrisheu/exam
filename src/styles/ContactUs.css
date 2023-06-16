@@ -62,6 +62,10 @@
     padding-left: 50px;
 }
 
+.us1 .ox2 {
+    width: 300px;
+}
+
 .us2 {
     width: 50%;
     
@@ -493,11 +497,14 @@ button img {
     }
 
   .us1  .ox {
+    
         font-size: 16px; 
     }
 
     .us1  .ox2 {
+        
         font-size: 13px; 
+        
     }
 
     button {
